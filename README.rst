@@ -13,3 +13,5 @@ Quick start
     ]
 
 2. Run ``python manage.py migrate`` to create the models.
+
+3. Run ``python manage.py load_initial_nuts_data`` to populate the database with the NUTS values.
