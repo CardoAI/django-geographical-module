@@ -4,7 +4,7 @@ from django.db import models
 class Geography(models.Model):
     level = models.PositiveSmallIntegerField()
     original_name = models.CharField(max_length=256)
-    en_name = models.CharField(max_length=256)
+    en_name = models.CharField(max_length=256, null=True)
     code = models.CharField(max_length=16, unique=True)
     parent = models.ForeignKey(to='self', related_name='children', null=True,
                                on_delete=models.CASCADE)
