@@ -1,0 +1,19 @@
+# Geographical NUTS data
+- model: geographical_module.Geography
+  pk: 1
+  fields:
+    level: 0
+    name: 'Name'
+    code: 'Kod-1'
+    parent: NULL
+    top_parent: TFXRDZESA
+
+- model: geographical_module.Geography
+  pk: 1
+  fields:
+    level: 0
+    name: 'Name'
+    code: 'Kod-1'
+    parent: NULL
+    top_parent: TFXRDZESA
+
