@@ -12,4 +12,4 @@ class Geography(models.Model):
                                    on_delete=models.CASCADE)
 
     def __str__(self):
-        return f'{self.name}-{self.code}'
+        return f'{self.original_name}-{self.code}'
