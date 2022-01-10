@@ -47,8 +47,6 @@ def check_sequence(nr_list):
     for index, nr in enumerate(nr_list[:-1]):
         if nr < nr_list[index + 1] != nr + 1:
             return False
-        if nr_list[index + 1] == 0 and nr != max_nr:
-            return False
     if nr_list[-2] != max_nr and nr_list[-1] - nr_list[-2] != 1:
         return False
     return True
