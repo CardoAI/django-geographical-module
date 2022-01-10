@@ -1,0 +1,2122 @@
+code;original_name;en_name;level;parent;top_parent;id
+BE;Belgique/België;Belgium;0;;;1
+BE1;Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest;;1;;;2
+BE10;Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest;;2;;;3
+BE100;Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad;;3;;;4
+BE2;Vlaams Gewest;;1;;;5
+BE21;Prov. Antwerpen;;2;;;6
+BE211;Arr. Antwerpen;;3;;;7
+BE212;Arr. Mechelen;;3;;;8
+BE213;Arr. Turnhout;;3;;;9
+BE22;Prov. Limburg (BE);;2;;;10
+BE223;Arr. Tongeren;;3;;;11
+BE224;Arr. Hasselt;;3;;;12
+BE225;Arr. Maaseik;;3;;;13
+BE23;Prov. Oost-Vlaanderen;;2;;;14
+BE231;Arr. Aalst;;3;;;15
+BE232;Arr. Dendermonde;;3;;;16
+BE233;Arr. Eeklo;;3;;;17
+BE234;Arr. Gent;;3;;;18
+BE235;Arr. Oudenaarde;;3;;;19
+BE236;Arr. Sint-Niklaas;;3;;;20
+BE24;Prov. Vlaams-Brabant;;2;;;21
+BE241;Arr. Halle-Vilvoorde;;3;;;22
+BE242;Arr. Leuven;;3;;;23
+BE25;Prov. West-Vlaanderen;;2;;;24
+BE251;Arr. Brugge;;3;;;25
+BE252;Arr. Diksmuide;;3;;;26
+BE253;Arr. Ieper;;3;;;27
+BE254;Arr. Kortrijk;;3;;;28
+BE255;Arr. Oostende;;3;;;29
+BE256;Arr. Roeselare;;3;;;30
+BE257;Arr. Tielt;;3;;;31
+BE258;Arr. Veurne;;3;;;32
+BE3;Région wallonne;;1;;;33
+BE31;Prov. Brabant Wallon;;2;;;34
+BE310;Arr. Nivelles;;3;;;35
+BE32;Prov. Hainaut;;2;;;36
+BE323;Arr. Mons;;3;;;37
+BE328;Arr. Tournai-Mouscron;;3;;;38
+BE329;Arr. La Louvière;;3;;;39
+BE32A;Arr. Ath;;3;;;40
+BE32B;Arr. Charleroi;;3;;;41
+BE32C;Arr. Soignies;;3;;;42
+BE32D;Arr. Thuin;;3;;;43
+BE33;Prov. Liège;;2;;;44
+BE331;Arr. Huy;;3;;;45
+BE332;Arr. Liège;;3;;;46
+BE334;Arr. Waremme;;3;;;47
+BE335;Arr. Verviers — communes francophones;;3;;;48
+BE336;Bezirk Verviers — Deutschsprachige Gemeinschaft;;3;;;49
+BE34;Prov. Luxembourg (BE);;2;;;50
+BE341;Arr. Arlon;;3;;;51
+BE342;Arr. Bastogne;;3;;;52
+BE343;Arr. Marche-en-Famenne;;3;;;53
+BE344;Arr. Neufchâteau;;3;;;54
+BE345;Arr. Virton;;3;;;55
+BE35;Prov. Namur;;2;;;56
+BE351;Arr. Dinant;;3;;;57
+BE352;Arr. Namur;;3;;;58
+BE353;Arr. Philippeville;;3;;;59
+BEZ;Extra-Regio NUTS 1;;1;;;60
+BEZZ;Extra-Regio NUTS 2;;2;;;61
+BEZZZ;Extra-Regio NUTS 3;;3;;;62
+BG;България ;Bulgaria;0;;;63
+BG3;Северна и Югоизточна България;;1;;;64
+BG31;Северозападен;;2;;;65
+BG311;Видин;;3;;;66
+BG312;Монтана;;3;;;67
+BG313;Враца;;3;;;68
+BG314;Плевен;;3;;;69
+BG315;Ловеч;;3;;;70
+BG32;Северен централен;;2;;;71
+BG321;Велико Търново;;3;;;72
+BG322;Габрово;;3;;;73
+BG323;Русе;;3;;;74
+BG324;Разград;;3;;;75
+BG325;Силистра;;3;;;76
+BG33;Североизточен;;2;;;77
+BG331;Варна;;3;;;78
+BG332;Добрич;;3;;;79
+BG333;Шумен;;3;;;80
+BG334;Търговище;;3;;;81
+BG34;Югоизточен;;2;;;82
+BG341;Бургас;;3;;;83
+BG342;Сливен;;3;;;84
+BG343;Ямбол;;3;;;85
+BG344;Стара Загора;;3;;;86
+BG4;Югозападна и Южна централна България;;1;;;87
+BG41;Югозападен;;2;;;88
+BG411;София (столица);;3;;;89
+BG412;София;;3;;;90
+BG413;Благоевград;;3;;;91
+BG414;Перник;;3;;;92
+BG415;Кюстендил;;3;;;93
+BG42;Южен централен;;2;;;94
+BG421;Пловдив;;3;;;95
+BG422;Хасково;;3;;;96
+BG423;Пазарджик;;3;;;97
+BG424;Смолян;;3;;;98
+BG425;Кърджали;;3;;;99
+BGZ;Extra-Regio NUTS 1;;1;;;100
+BGZZ;Extra-Regio NUTS 2;;2;;;101
+BGZZZ;Extra-Regio NUTS 3;;3;;;102
+CZ;Česko;Czechia;0;;;103
+CZ0;Česko;;1;;;104
+CZ01;Praha;;2;;;105
+CZ010;Hlavní město Praha;;3;;;106
+CZ02;Střední Čechy;;2;;;107
+CZ020;Středočeský kraj;;3;;;108
+CZ03;Jihozápad;;2;;;109
+CZ031;Jihočeský kraj;;3;;;110
+CZ032;Plzeňský kraj;;3;;;111
+CZ04;Severozápad;;2;;;112
+CZ041;Karlovarský kraj;;3;;;113
+CZ042;Ústecký kraj;;3;;;114
+CZ05;Severovýchod;;2;;;115
+CZ051;Liberecký kraj;;3;;;116
+CZ052;Královéhradecký kraj;;3;;;117
+CZ053;Pardubický kraj;;3;;;118
+CZ06;Jihovýchod;;2;;;119
+CZ063;Kraj Vysočina;;3;;;120
+CZ064;Jihomoravský kraj;;3;;;121
+CZ07;Střední Morava;;2;;;122
+CZ071;Olomoucký kraj;;3;;;123
+CZ072;Zlínský kraj;;3;;;124
+CZ08;Moravskoslezsko;;2;;;125
+CZ080;Moravskoslezský kraj;;3;;;126
+CZZ;Extra-Regio NUTS 1;;1;;;127
+CZZZ;Extra-Regio NUTS 2;;2;;;128
+CZZZZ;Extra-Regio NUTS 3;;3;;;129
+DK;Danmark;Denmark;0;;;130
+DK0;Danmark;;1;;;131
+DK01;Hovedstaden;;2;;;132
+DK011;Byen København;;3;;;133
+DK012;Københavns omegn;;3;;;134
+DK013;Nordsjælland;;3;;;135
+DK014;Bornholm;;3;;;136
+DK02;Sjælland;;2;;;137
+DK021;Østsjælland;;3;;;138
+DK022;Vest- og Sydsjælland;;3;;;139
+DK03;Syddanmark;;2;;;140
+DK031;Fyn;;3;;;141
+DK032;Sydjylland;;3;;;142
+DK04;Midtjylland;;2;;;143
+DK041;Vestjylland;;3;;;144
+DK042;Østjylland;;3;;;145
+DK05;Nordjylland;;2;;;146
+DK050;Nordjylland;;3;;;147
+DKZ;Extra-Regio NUTS 1;;1;;;148
+DKZZ;Extra-Regio NUTS 2;;2;;;149
+DKZZZ;Extra-Regio NUTS 3;;3;;;150
+DE;Deutschland;Germany;0;;;151
+DE1;Baden-Württemberg;;1;;;152
+DE11;Stuttgart;;2;;;153
+DE111;Stuttgart, Stadtkreis;;3;;;154
+DE112;Böblingen;;3;;;155
+DE113;Esslingen;;3;;;156
+DE114;Göppingen;;3;;;157
+DE115;Ludwigsburg;;3;;;158
+DE116;Rems-Murr-Kreis;;3;;;159
+DE117;Heilbronn, Stadtkreis;;3;;;160
+DE118;Heilbronn, Landkreis;;3;;;161
+DE119;Hohenlohekreis;;3;;;162
+DE11A;Schwäbisch Hall;;3;;;163
+DE11B;Main-Tauber-Kreis;;3;;;164
+DE11C;Heidenheim;;3;;;165
+DE11D;Ostalbkreis;;3;;;166
+DE12;Karlsruhe;;2;;;167
+DE121;Baden-Baden, Stadtkreis;;3;;;168
+DE122;Karlsruhe, Stadtkreis;;3;;;169
+DE123;Karlsruhe, Landkreis;;3;;;170
+DE124;Rastatt;;3;;;171
+DE125;Heidelberg, Stadtkreis;;3;;;172
+DE126;Mannheim, Stadtkreis;;3;;;173
+DE127;Neckar-Odenwald-Kreis;;3;;;174
+DE128;Rhein-Neckar-Kreis;;3;;;175
+DE129;Pforzheim, Stadtkreis;;3;;;176
+DE12A;Calw;;3;;;177
+DE12B;Enzkreis;;3;;;178
+DE12C;Freudenstadt;;3;;;179
+DE13;Freiburg;;2;;;180
+DE131;Freiburg im Breisgau, Stadtkreis;;3;;;181
+DE132;Breisgau-Hochschwarzwald;;3;;;182
+DE133;Emmendingen;;3;;;183
+DE134;Ortenaukreis;;3;;;184
+DE135;Rottweil;;3;;;185
+DE136;Schwarzwald-Baar-Kreis;;3;;;186
+DE137;Tuttlingen;;3;;;187
+DE138;Konstanz;;3;;;188
+DE139;Lörrach;;3;;;189
+DE13A;Waldshut;;3;;;190
+DE14;Tübingen;;2;;;191
+DE141;Reutlingen;;3;;;192
+DE142;Tübingen, Landkreis;;3;;;193
+DE143;Zollernalbkreis;;3;;;194
+DE144;Ulm, Stadtkreis;;3;;;195
+DE145;Alb-Donau-Kreis;;3;;;196
+DE146;Biberach;;3;;;197
+DE147;Bodenseekreis;;3;;;198
+DE148;Ravensburg;;3;;;199
+DE149;Sigmaringen;;3;;;200
+DE2;Bayern;;1;;;201
+DE21;Oberbayern;;2;;;202
+DE211;Ingolstadt, Kreisfreie Stadt;;3;;;203
+DE212;München, Kreisfreie Stadt;;3;;;204
+DE213;Rosenheim, Kreisfreie Stadt;;3;;;205
+DE214;Altötting;;3;;;206
+DE215;Berchtesgadener Land;;3;;;207
+DE216;Bad Tölz-Wolfratshausen;;3;;;208
+DE217;Dachau;;3;;;209
+DE218;Ebersberg;;3;;;210
+DE219;Eichstätt;;3;;;211
+DE21A;Erding;;3;;;212
+DE21B;Freising;;3;;;213
+DE21C;Fürstenfeldbruck;;3;;;214
+DE21D;Garmisch-Partenkirchen;;3;;;215
+DE21E;Landsberg am Lech;;3;;;216
+DE21F;Miesbach;;3;;;217
+DE21G;Mühldorf a. Inn;;3;;;218
+DE21H;München, Landkreis;;3;;;219
+DE21I;Neuburg-Schrobenhausen;;3;;;220
+DE21J;Pfaffenhofen a. d. Ilm;;3;;;221
+DE21K;Rosenheim, Landkreis;;3;;;222
+DE21L;Starnberg;;3;;;223
+DE21M;Traunstein;;3;;;224
+DE21N;Weilheim-Schongau;;3;;;225
+DE22;Niederbayern;;2;;;226
+DE221;Landshut, Kreisfreie Stadt;;3;;;227
+DE222;Passau, Kreisfreie Stadt;;3;;;228
+DE223;Straubing, Kreisfreie Stadt;;3;;;229
+DE224;Deggendorf;;3;;;230
+DE225;Freyung-Grafenau;;3;;;231
+DE226;Kelheim;;3;;;232
+DE227;Landshut, Landkreis;;3;;;233
+DE228;Passau, Landkreis;;3;;;234
+DE229;Regen;;3;;;235
+DE22A;Rottal-Inn;;3;;;236
+DE22B;Straubing-Bogen;;3;;;237
+DE22C;Dingolfing-Landau;;3;;;238
+DE23;Oberpfalz;;2;;;239
+DE231;Amberg, Kreisfreie Stadt;;3;;;240
+DE232;Regensburg, Kreisfreie Stadt;;3;;;241
+DE233;Weiden i. d. Opf, Kreisfreie Stadt;;3;;;242
+DE234;Amberg-Sulzbach;;3;;;243
+DE235;Cham;;3;;;244
+DE236;Neumarkt i. d. OPf.;;3;;;245
+DE237;Neustadt a. d. Waldnaab;;3;;;246
+DE238;Regensburg, Landkreis;;3;;;247
+DE239;Schwandorf;;3;;;248
+DE23A;Tirschenreuth;;3;;;249
+DE24;Oberfranken;;2;;;250
+DE241;Bamberg, Kreisfreie Stadt;;3;;;251
+DE242;Bayreuth, Kreisfreie Stadt;;3;;;252
+DE243;Coburg, Kreisfreie Stadt;;3;;;253
+DE244;Hof, Kreisfreie Stadt;;3;;;254
+DE245;Bamberg, Landkreis;;3;;;255
+DE246;Bayreuth, Landkreis;;3;;;256
+DE247;Coburg, Landkreis;;3;;;257
+DE248;Forchheim;;3;;;258
+DE249;Hof, Landkreis;;3;;;259
+DE24A;Kronach;;3;;;260
+DE24B;Kulmbach;;3;;;261
+DE24C;Lichtenfels;;3;;;262
+DE24D;Wunsiedel i. Fichtelgebirge;;3;;;263
+DE25;Mittelfranken;;2;;;264
+DE251;Ansbach, Kreisfreie Stadt;;3;;;265
+DE252;Erlangen, Kreisfreie Stadt;;3;;;266
+DE253;Fürth, Kreisfreie Stadt;;3;;;267
+DE254;Nürnberg, Kreisfreie Stadt;;3;;;268
+DE255;Schwabach, Kreisfreie Stadt;;3;;;269
+DE256;Ansbach, Landkreis;;3;;;270
+DE257;Erlangen-Höchstadt;;3;;;271
+DE258;Fürth, Landkreis;;3;;;272
+DE259;Nürnberger Land;;3;;;273
+DE25A;Neustadt a. d. Aisch-Bad Windsheim;;3;;;274
+DE25B;Roth;;3;;;275
+DE25C;Weißenburg-Gunzenhausen;;3;;;276
+DE26;Unterfranken;;2;;;277
+DE261;Aschaffenburg, Kreisfreie Stadt;;3;;;278
+DE262;Schweinfurt, Kreisfreie Stadt;;3;;;279
+DE263;Würzburg, Kreisfreie Stadt;;3;;;280
+DE264;Aschaffenburg, Landkreis;;3;;;281
+DE265;Bad Kissingen;;3;;;282
+DE266;Rhön-Grabfeld;;3;;;283
+DE267;Haßberge;;3;;;284
+DE268;Kitzingen;;3;;;285
+DE269;Miltenberg;;3;;;286
+DE26A;Main-Spessart;;3;;;287
+DE26B;Schweinfurt, Landkreis;;3;;;288
+DE26C;Würzburg, Landkreis;;3;;;289
+DE27;Schwaben;;2;;;290
+DE271;Augsburg, Kreisfreie Stadt;;3;;;291
+DE272;Kaufbeuren, Kreisfreie Stadt;;3;;;292
+DE273;Kempten (Allgäu), Kreisfreie Stadt;;3;;;293
+DE274;Memmingen, Kreisfreie Stadt;;3;;;294
+DE275;Aichach-Friedberg;;3;;;295
+DE276;Augsburg, Landkreis;;3;;;296
+DE277;Dillingen a.d. Donau;;3;;;297
+DE278;Günzburg;;3;;;298
+DE279;Neu-Ulm;;3;;;299
+DE27A;Lindau (Bodensee);;3;;;300
+DE27B;Ostallgäu;;3;;;301
+DE27C;Unterallgäu;;3;;;302
+DE27D;Donau-Ries;;3;;;303
+DE27E;Oberallgäu;;3;;;304
+DE3;Berlin;;1;;;305
+DE30;Berlin;;2;;;306
+DE300;Berlin;;3;;;307
+DE4;Brandenburg;;1;;;308
+DE40;Brandenburg;;2;;;309
+DE401;Brandenburg an der Havel, Kreisfreie Stadt;;3;;;310
+DE402;Cottbus, Kreisfreie Stadt;;3;;;311
+DE403;Frankfurt (Oder), Kreisfreie Stadt;;3;;;312
+DE404;Potsdam, Kreisfreie Stadt;;3;;;313
+DE405;Barnim;;3;;;314
+DE406;Dahme-Spreewald;;3;;;315
+DE407;Elbe-Elster;;3;;;316
+DE408;Havelland;;3;;;317
+DE409;Märkisch-Oderland;;3;;;318
+DE40A;Oberhavel;;3;;;319
+DE40B;Oberspreewald-Lausitz;;3;;;320
+DE40C;Oder-Spree;;3;;;321
+DE40D;Ostprignitz-Ruppin;;3;;;322
+DE40E;Potsdam-Mittelmark;;3;;;323
+DE40F;Prignitz;;3;;;324
+DE40G;Spree-Neiße;;3;;;325
+DE40H;Teltow-Fläming;;3;;;326
+DE40I;Uckermark;;3;;;327
+DE5;Bremen;;1;;;328
+DE50;Bremen;;2;;;329
+DE501;Bremen, Kreisfreie Stadt;;3;;;330
+DE502;Bremerhaven, Kreisfreie Stadt;;3;;;331
+DE6;Hamburg;;1;;;332
+DE60;Hamburg;;2;;;333
+DE600;Hamburg;;3;;;334
+DE7;Hessen;;1;;;335
+DE71;Darmstadt;;2;;;336
+DE711;Darmstadt, Kreisfreie Stadt;;3;;;337
+DE712;Frankfurt am Main, Kreisfreie Stadt;;3;;;338
+DE713;Offenbach am Main, Kreisfreie Stadt;;3;;;339
+DE714;Wiesbaden, Kreisfreie Stadt;;3;;;340
+DE715;Bergstraße;;3;;;341
+DE716;Darmstadt-Dieburg;;3;;;342
+DE717;Groß-Gerau;;3;;;343
+DE718;Hochtaunuskreis;;3;;;344
+DE719;Main-Kinzig-Kreis;;3;;;345
+DE71A;Main-Taunus-Kreis;;3;;;346
+DE71B;Odenwaldkreis;;3;;;347
+DE71C;Offenbach, Landkreis;;3;;;348
+DE71D;Rheingau-Taunus-Kreis;;3;;;349
+DE71E;Wetteraukreis;;3;;;350
+DE72;Gießen;;2;;;351
+DE721;Gießen, Landkreis;;3;;;352
+DE722;Lahn-Dill-Kreis;;3;;;353
+DE723;Limburg-Weilburg;;3;;;354
+DE724;Marburg-Biedenkopf;;3;;;355
+DE725;Vogelsbergkreis;;3;;;356
+DE73;Kassel;;2;;;357
+DE731;Kassel, Kreisfreie Stadt;;3;;;358
+DE732;Fulda;;3;;;359
+DE733;Hersfeld-Rotenburg;;3;;;360
+DE734;Kassel, Landkreis;;3;;;361
+DE735;Schwalm-Eder-Kreis;;3;;;362
+DE736;Waldeck-Frankenberg;;3;;;363
+DE737;Werra-Meißner-Kreis;;3;;;364
+DE8;Mecklenburg-Vorpommern;;1;;;365
+DE80;Mecklenburg-Vorpommern;;2;;;366
+DE803;Rostock, Kreisfreie Stadt;;3;;;367
+DE804;Schwerin, Kreisfreie Stadt;;3;;;368
+DE80J;Mecklenburgische Seenplatte;;3;;;369
+DE80K;Landkreis Rostock;;3;;;370
+DE80L;Vorpommern-Rügen;;3;;;371
+DE80M;Nordwestmecklenburg;;3;;;372
+DE80N;Vorpommern-Greifswald;;3;;;373
+DE80O;Ludwigslust-Parchim;;3;;;374
+DE9;Niedersachsen;;1;;;375
+DE91;Braunschweig;;2;;;376
+DE911;Braunschweig, Kreisfreie Stadt;;3;;;377
+DE912;Salzgitter, Kreisfreie Stadt;;3;;;378
+DE913;Wolfsburg, Kreisfreie Stadt;;3;;;379
+DE914;Gifhorn;;3;;;380
+DE916;Goslar;;3;;;381
+DE917;Helmstedt;;3;;;382
+DE918;Northeim;;3;;;383
+DE91A;Peine;;3;;;384
+DE91B;Wolfenbüttel;;3;;;385
+DE91C;Göttingen;;3;;;386
+DE92;Hannover;;2;;;387
+DE922;Diepholz;;3;;;388
+DE923;Hameln-Pyrmont;;3;;;389
+DE925;Hildesheim;;3;;;390
+DE926;Holzminden;;3;;;391
+DE927;Nienburg (Weser);;3;;;392
+DE928;Schaumburg;;3;;;393
+DE929;Region Hannover;;3;;;394
+DE93;Lüneburg;;2;;;395
+DE931;Celle;;3;;;396
+DE932;Cuxhaven;;3;;;397
+DE933;Harburg;;3;;;398
+DE934;Lüchow-Dannenberg;;3;;;399
+DE935;Lüneburg, Landkreis;;3;;;400
+DE936;Osterholz;;3;;;401
+DE937;Rotenburg (Wümme);;3;;;402
+DE938;Heidekreis;;3;;;403
+DE939;Stade;;3;;;404
+DE93A;Uelzen;;3;;;405
+DE93B;Verden;;3;;;406
+DE94;Weser-Ems;;2;;;407
+DE941;Delmenhorst, Kreisfreie Stadt;;3;;;408
+DE942;Emden, Kreisfreie Stadt;;3;;;409
+DE943;Oldenburg (Oldenburg), Kreisfreie Stadt;;3;;;410
+DE944;Osnabrück, Kreisfreie Stadt;;3;;;411
+DE945;Wilhelmshaven, Kreisfreie Stadt;;3;;;412
+DE946;Ammerland;;3;;;413
+DE947;Aurich;;3;;;414
+DE948;Cloppenburg;;3;;;415
+DE949;Emsland;;3;;;416
+DE94A;Friesland (DE);;3;;;417
+DE94B;Grafschaft Bentheim;;3;;;418
+DE94C;Leer;;3;;;419
+DE94D;Oldenburg, Landkreis;;3;;;420
+DE94E;Osnabrück, Landkreis;;3;;;421
+DE94F;Vechta;;3;;;422
+DE94G;Wesermarsch;;3;;;423
+DE94H;Wittmund;;3;;;424
+DEA;Nordrhein-Westfalen;;1;;;425
+DEA1;Düsseldorf;;2;;;426
+DEA11;Düsseldorf, Kreisfreie Stadt;;3;;;427
+DEA12;Duisburg, Kreisfreie Stadt;;3;;;428
+DEA13;Essen, Kreisfreie Stadt;;3;;;429
+DEA14;Krefeld, Kreisfreie Stadt;;3;;;430
+DEA15;Mönchengladbach, Kreisfreie Stadt;;3;;;431
+DEA16;Mülheim an der Ruhr, Kreisfreie Stadt;;3;;;432
+DEA17;Oberhausen, Kreisfreie Stadt;;3;;;433
+DEA18;Remscheid, Kreisfreie Stadt;;3;;;434
+DEA19;Solingen, Kreisfreie Stadt;;3;;;435
+DEA1A;Wuppertal, Kreisfreie Stadt;;3;;;436
+DEA1B;Kleve;;3;;;437
+DEA1C;Mettmann;;3;;;438
+DEA1D;Rhein-Kreis Neuss;;3;;;439
+DEA1E;Viersen;;3;;;440
+DEA1F;Wesel;;3;;;441
+DEA2;Köln;;2;;;442
+DEA22;Bonn, Kreisfreie Stadt;;3;;;443
+DEA23;Köln, Kreisfreie Stadt;;3;;;444
+DEA24;Leverkusen, Kreisfreie Stadt;;3;;;445
+DEA26;Düren;;3;;;446
+DEA27;Rhein-Erft-Kreis;;3;;;447
+DEA28;Euskirchen;;3;;;448
+DEA29;Heinsberg;;3;;;449
+DEA2A;Oberbergischer Kreis;;3;;;450
+DEA2B;Rheinisch-Bergischer Kreis;;3;;;451
+DEA2C;Rhein-Sieg-Kreis;;3;;;452
+DEA2D;Städteregion Aachen;;3;;;453
+DEA3;Münster;;2;;;454
+DEA31;Bottrop, Kreisfreie Stadt;;3;;;455
+DEA32;Gelsenkirchen, Kreisfreie Stadt;;3;;;456
+DEA33;Münster, Kreisfreie Stadt;;3;;;457
+DEA34;Borken;;3;;;458
+DEA35;Coesfeld;;3;;;459
+DEA36;Recklinghausen;;3;;;460
+DEA37;Steinfurt;;3;;;461
+DEA38;Warendorf;;3;;;462
+DEA4;Detmold;;2;;;463
+DEA41;Bielefeld, Kreisfreie Stadt;;3;;;464
+DEA42;Gütersloh;;3;;;465
+DEA43;Herford;;3;;;466
+DEA44;Höxter;;3;;;467
+DEA45;Lippe;;3;;;468
+DEA46;Minden-Lübbecke;;3;;;469
+DEA47;Paderborn;;3;;;470
+DEA5;Arnsberg;;2;;;471
+DEA51;Bochum, Kreisfreie Stadt;;3;;;472
+DEA52;Dortmund, Kreisfreie Stadt;;3;;;473
+DEA53;Hagen, Kreisfreie Stadt;;3;;;474
+DEA54;Hamm, Kreisfreie Stadt;;3;;;475
+DEA55;Herne, Kreisfreie Stadt;;3;;;476
+DEA56;Ennepe-Ruhr-Kreis;;3;;;477
+DEA57;Hochsauerlandkreis;;3;;;478
+DEA58;Märkischer Kreis;;3;;;479
+DEA59;Olpe;;3;;;480
+DEA5A;Siegen-Wittgenstein;;3;;;481
+DEA5B;Soest;;3;;;482
+DEA5C;Unna;;3;;;483
+DEB;Rheinland-Pfalz;;1;;;484
+DEB1;Koblenz;;2;;;485
+DEB11;Koblenz, Kreisfreie Stadt;;3;;;486
+DEB12;Ahrweiler;;3;;;487
+DEB13;Altenkirchen (Westerwald);;3;;;488
+DEB14;Bad Kreuznach;;3;;;489
+DEB15;Birkenfeld;;3;;;490
+DEB17;Mayen-Koblenz;;3;;;491
+DEB18;Neuwied;;3;;;492
+DEB1A;Rhein-Lahn-Kreis;;3;;;493
+DEB1B;Westerwaldkreis;;3;;;494
+DEB1C;Cochem-Zell;;3;;;495
+DEB1D;Rhein-Hunsrück-Kreis;;3;;;496
+DEB2;Trier;;2;;;497
+DEB21;Trier, Kreisfreie Stadt;;3;;;498
+DEB22;Bernkastel-Wittlich;;3;;;499
+DEB23;Eifelkreis Bitburg-Prüm;;3;;;500
+DEB24;Vulkaneifel;;3;;;501
+DEB25;Trier-Saarburg;;3;;;502
+DEB3;Rheinhessen-Pfalz;;2;;;503
+DEB31;Frankenthal (Pfalz), Kreisfreie Stadt;;3;;;504
+DEB32;Kaiserslautern, Kreisfreie Stadt;;3;;;505
+DEB33;Landau in der Pfalz, Kreisfreie Stadt;;3;;;506
+DEB34;Ludwigshafen am Rhein, Kreisfreie Stadt;;3;;;507
+DEB35;Mainz, Kreisfreie Stadt;;3;;;508
+DEB36;Neustadt an der Weinstraße, Kreisfreie Stadt;;3;;;509
+DEB37;Pirmasens, Kreisfreie Stadt;;3;;;510
+DEB38;Speyer, Kreisfreie Stadt;;3;;;511
+DEB39;Worms, Kreisfreie Stadt;;3;;;512
+DEB3A;Zweibrücken, Kreisfreie Stadt;;3;;;513
+DEB3B;Alzey-Worms;;3;;;514
+DEB3C;Bad Dürkheim;;3;;;515
+DEB3D;Donnersbergkreis;;3;;;516
+DEB3E;Germersheim;;3;;;517
+DEB3F;Kaiserslautern, Landkreis;;3;;;518
+DEB3G;Kusel;;3;;;519
+DEB3H;Südliche Weinstraße;;3;;;520
+DEB3I;Rhein-Pfalz-Kreis;;3;;;521
+DEB3J;Mainz-Bingen;;3;;;522
+DEB3K;Südwestpfalz;;3;;;523
+DEC;Saarland;;1;;;524
+DEC0;Saarland;;2;;;525
+DEC01;Regionalverband Saarbrücken;;3;;;526
+DEC02;Merzig-Wadern;;3;;;527
+DEC03;Neunkirchen;;3;;;528
+DEC04;Saarlouis;;3;;;529
+DEC05;Saarpfalz-Kreis;;3;;;530
+DEC06;St. Wendel;;3;;;531
+DED;Sachsen;;1;;;532
+DED2;Dresden;;2;;;533
+DED21;Dresden, Kreisfreie Stadt;;3;;;534
+DED2C;Bautzen;;3;;;535
+DED2D;Görlitz;;3;;;536
+DED2E;Meißen;;3;;;537
+DED2F;Sächsische Schweiz-Osterzgebirge;;3;;;538
+DED4;Chemnitz;;2;;;539
+DED41;Chemnitz, Kreisfreie Stadt;;3;;;540
+DED42;Erzgebirgskreis;;3;;;541
+DED43;Mittelsachsen;;3;;;542
+DED44;Vogtlandkreis;;3;;;543
+DED45;Zwickau;;3;;;544
+DED5;Leipzig;;2;;;545
+DED51;Leipzig, Kreisfreie Stadt;;3;;;546
+DED52;Leipzig;;3;;;547
+DED53;Nordsachsen;;3;;;548
+DEE;Sachsen-Anhalt;;1;;;549
+DEE0;Sachsen-Anhalt;;2;;;550
+DEE01;Dessau-Roßlau, Kreisfreie Stadt;;3;;;551
+DEE02;Halle (Saale), Kreisfreie Stadt;;3;;;552
+DEE03;Magdeburg, Kreisfreie Stadt;;3;;;553
+DEE04;Altmarkkreis Salzwedel;;3;;;554
+DEE05;Anhalt-Bitterfeld;;3;;;555
+DEE06;Jerichower Land;;3;;;556
+DEE07;Börde;;3;;;557
+DEE08;Burgenlandkreis;;3;;;558
+DEE09;Harz;;3;;;559
+DEE0A;Mansfeld-Südharz;;3;;;560
+DEE0B;Saalekreis;;3;;;561
+DEE0C;Salzlandkreis;;3;;;562
+DEE0D;Stendal;;3;;;563
+DEE0E;Wittenberg;;3;;;564
+DEF;Schleswig-Holstein;;1;;;565
+DEF0;Schleswig-Holstein;;2;;;566
+DEF01;Flensburg, Kreisfreie Stadt;;3;;;567
+DEF02;Kiel, Kreisfreie Stadt;;3;;;568
+DEF03;Lübeck, Kreisfreie Stadt;;3;;;569
+DEF04;Neumünster, Kreisfreie Stadt;;3;;;570
+DEF05;Dithmarschen;;3;;;571
+DEF06;Herzogtum Lauenburg;;3;;;572
+DEF07;Nordfriesland;;3;;;573
+DEF08;Ostholstein;;3;;;574
+DEF09;Pinneberg;;3;;;575
+DEF0A;Plön;;3;;;576
+DEF0B;Rendsburg-Eckernförde;;3;;;577
+DEF0C;Schleswig-Flensburg;;3;;;578
+DEF0D;Segeberg;;3;;;579
+DEF0E;Steinburg;;3;;;580
+DEF0F;Stormarn;;3;;;581
+DEG;Thüringen;;1;;;582
+DEG0;Thüringen;;2;;;583
+DEG01;Erfurt, Kreisfreie Stadt;;3;;;584
+DEG02;Gera, Kreisfreie Stadt;;3;;;585
+DEG03;Jena, Kreisfreie Stadt;;3;;;586
+DEG04;Suhl, Kreisfreie Stadt;;3;;;587
+DEG05;Weimar, Kreisfreie Stadt;;3;;;588
+DEG06;Eichsfeld;;3;;;589
+DEG07;Nordhausen;;3;;;590
+DEG09;Unstrut-Hainich-Kreis;;3;;;591
+DEG0A;Kyffhäuserkreis;;3;;;592
+DEG0B;Schmalkalden-Meiningen;;3;;;593
+DEG0C;Gotha;;3;;;594
+DEG0D;Sömmerda;;3;;;595
+DEG0E;Hildburghausen;;3;;;596
+DEG0F;Ilm-Kreis;;3;;;597
+DEG0G;Weimarer Land;;3;;;598
+DEG0H;Sonneberg;;3;;;599
+DEG0I;Saalfeld-Rudolstadt;;3;;;600
+DEG0J;Saale-Holzland-Kreis;;3;;;601
+DEG0K;Saale-Orla-Kreis;;3;;;602
+DEG0L;Greiz;;3;;;603
+DEG0M;Altenburger Land;;3;;;604
+DEG0N;Eisenach, Kreisfreie Stadt;;3;;;605
+DEG0P;Wartburgkreis;;3;;;606
+DEZ;Extra-Regio NUTS 1;;1;;;607
+DEZZ;Extra-Regio NUTS 2;;2;;;608
+DEZZZ;Extra-Regio NUTS 3;;3;;;609
+EE;Eesti;Estonia;0;;;610
+EE0;Eesti;;1;;;611
+EE00;Eesti;;2;;;612
+EE001;Põhja-Eesti;;3;;;613
+EE004;Lääne-Eesti;;3;;;614
+EE008;Lõuna-Eesti;;3;;;615
+EE009;Kesk-Eesti;;3;;;616
+EE00A;Kirde-Eesti;;3;;;617
+EEZ;Extra-Regio NUTS 1;;1;;;618
+EEZZ;Extra-Regio NUTS 2;;2;;;619
+EEZZZ;Extra-Regio NUTS 3;;3;;;620
+IE;Éire/Ireland;Ireland;0;;;621
+IE0;Ireland;;1;;;622
+IE04;Northern and Western;;2;;;623
+IE041;Border;;3;;;624
+IE042;West;;3;;;625
+IE05;Southern;;2;;;626
+IE051;Mid-West ;;3;;;627
+IE052;South-East ;;3;;;628
+IE053;South-West ;;3;;;629
+IE06;Eastern and Midland;;2;;;630
+IE061;Dublin;;3;;;631
+IE062;Mid-East;;3;;;632
+IE063;Midland;;3;;;633
+IEZ;Extra-Regio NUTS 1;;1;;;634
+IEZZ;Extra-Regio NUTS 2;;2;;;635
+IEZZZ;Extra-Regio NUTS 3;;3;;;636
+EL;Ελλάδα ;Greece;0;;;637
+EL3;Αττική ;;1;;;638
+EL30;Aττική;;2;;;639
+EL301;Βόρειος Τομέας Αθηνών;;3;;;640
+EL302;Δυτικός Τομέας Αθηνών;;3;;;641
+EL303;Κεντρικός Τομέας Αθηνών;;3;;;642
+EL304;Νότιος Τομέας Αθηνών;;3;;;643
+EL305;Ανατολική Αττική;;3;;;644
+EL306;Δυτική Αττική;;3;;;645
+EL307;Πειραιάς, Νήσοι;;3;;;646
+EL4;Νησιά Αιγαίου, Κρήτη;;1;;;647
+EL41;Βόρειο Αιγαίο;;2;;;648
+EL411;Λέσβος, Λήμνος;;3;;;649
+EL412;Ικαρία, Σάμος;;3;;;650
+EL413;Χίος;;3;;;651
+EL42;Νότιο Αιγαίο;;2;;;652
+EL421;Κάλυμνος, Κάρπαθος – Ηρωική Νήσος Κάσος, Κως, Ρόδος;;3;;;653
+EL422;Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος;;3;;;654
+EL43;Κρήτη;;2;;;655
+EL431;Ηράκλειο;;3;;;656
+EL432;Λασίθι;;3;;;657
+EL433;Ρέθυμνο;;3;;;658
+EL434;Χανιά;;3;;;659
+EL5;Βόρεια Ελλάδα;;1;;;660
+EL51;Aνατολική Μακεδονία, Θράκη;;2;;;661
+EL511;Έβρος;;3;;;662
+EL512;Ξάνθη;;3;;;663
+EL513;Ροδόπη;;3;;;664
+EL514;Δράμα;;3;;;665
+EL515;Θάσος, Καβάλα;;3;;;666
+EL52;Κεντρική Μακεδονία;;2;;;667
+EL521;Ημαθία;;3;;;668
+EL522;Θεσσαλονίκη;;3;;;669
+EL523;Κιλκίς;;3;;;670
+EL524;Πέλλα;;3;;;671
+EL525;Πιερία;;3;;;672
+EL526;Σέρρες;;3;;;673
+EL527;Χαλκιδική;;3;;;674
+EL53;Δυτική Μακεδονία;;2;;;675
+EL531;Γρεβενά, Κοζάνη;;3;;;676
+EL532;Καστοριά;;3;;;677
+EL533;Φλώρινα;;3;;;678
+EL54;Ήπειρος;;2;;;679
+EL541;Άρτα, Πρέβεζα;;3;;;680
+EL542;Θεσπρωτία;;3;;;681
+EL543;Ιωάννινα;;3;;;682
+EL6;Κεντρική Ελλάδα;;1;;;683
+EL61;Θεσσαλία;;2;;;684
+EL611;Καρδίτσα, Τρίκαλα;;3;;;685
+EL612;Λάρισα;;3;;;686
+EL613;Μαγνησία, Σποράδες;;3;;;687
+EL62;Ιόνια Νησιά;;2;;;688
+EL621;Ζάκυνθος;;3;;;689
+EL622;Κέρκυρα;;3;;;690
+EL623;Ιθάκη, Κεφαλληνία;;3;;;691
+EL624;Λευκάδα;;3;;;692
+EL63;Δυτική Ελλάδα;;2;;;693
+EL631;Αιτωλοακαρνανία;;3;;;694
+EL632;Αχαΐα;;3;;;695
+EL633;Ηλεία;;3;;;696
+EL64;Στερεά Ελλάδα;;2;;;697
+EL641;Βοιωτία;;3;;;698
+EL642;Εύβοια;;3;;;699
+EL643;Ευρυτανία;;3;;;700
+EL644;Φθιώτιδα;;3;;;701
+EL645;Φωκίδα;;3;;;702
+EL65;Πελοπόννησος;;2;;;703
+EL651;Αργολίδα, Αρκαδία;;3;;;704
+EL652;Κορινθία;;3;;;705
+EL653;Λακωνία, Μεσσηνία;;3;;;706
+ELZ;Extra-Regio NUTS 1;;1;;;707
+ELZZ;Extra-Regio NUTS 2;;2;;;708
+ELZZZ;Extra-Regio NUTS 3;;3;;;709
+ES;España;Spain;0;;;710
+ES1;Noroeste;;1;;;711
+ES11;Galicia;;2;;;712
+ES111;A Coruña;;3;;;713
+ES112;Lugo;;3;;;714
+ES113;Ourense;;3;;;715
+ES114;Pontevedra;;3;;;716
+ES12;Principado de Asturias;;2;;;717
+ES120;Asturias;;3;;;718
+ES13;Cantabria;;2;;;719
+ES130;Cantabria;;3;;;720
+ES2;Noreste;;1;;;721
+ES21;País Vasco;;2;;;722
+ES211;Araba/Álava;;3;;;723
+ES212;Gipuzkoa;;3;;;724
+ES213;Bizkaia;;3;;;725
+ES22;Comunidad Foral de Navarra;;2;;;726
+ES220;Navarra;;3;;;727
+ES23;La Rioja;;2;;;728
+ES230;La Rioja;;3;;;729
+ES24;Aragón;;2;;;730
+ES241;Huesca;;3;;;731
+ES242;Teruel;;3;;;732
+ES243;Zaragoza;;3;;;733
+ES3;Comunidad de Madrid;;1;;;734
+ES30;Comunidad de Madrid;;2;;;735
+ES300;Madrid;;3;;;736
+ES4;Centro (ES);;1;;;737
+ES41;Castilla y León;;2;;;738
+ES411;Ávila;;3;;;739
+ES412;Burgos;;3;;;740
+ES413;León;;3;;;741
+ES414;Palencia;;3;;;742
+ES415;Salamanca;;3;;;743
+ES416;Segovia;;3;;;744
+ES417;Soria;;3;;;745
+ES418;Valladolid;;3;;;746
+ES419;Zamora;;3;;;747
+ES42;Castilla-La Mancha;;2;;;748
+ES421;Albacete;;3;;;749
+ES422;Ciudad Real;;3;;;750
+ES423;Cuenca;;3;;;751
+ES424;Guadalajara;;3;;;752
+ES425;Toledo;;3;;;753
+ES43;Extremadura;;2;;;754
+ES431;Badajoz;;3;;;755
+ES432;Cáceres;;3;;;756
+ES5;Este;;1;;;757
+ES51;Cataluña;;2;;;758
+ES511;Barcelona;;3;;;759
+ES512;Girona;;3;;;760
+ES513;Lleida;;3;;;761
+ES514;Tarragona;;3;;;762
+ES52;Comunitat Valenciana ;;2;;;763
+ES521;Alicante/Alacant;;3;;;764
+ES522;Castellón/Castelló;;3;;;765
+ES523;Valencia/València;;3;;;766
+ES53;Illes Balears;;2;;;767
+ES531;Eivissa y Formentera;;3;;;768
+ES532;Mallorca;;3;;;769
+ES533;Menorca;;3;;;770
+ES6;Sur;;1;;;771
+ES61;Andalucía;;2;;;772
+ES611;Almería;;3;;;773
+ES612;Cádiz;;3;;;774
+ES613;Córdoba;;3;;;775
+ES614;Granada;;3;;;776
+ES615;Huelva;;3;;;777
+ES616;Jaén;;3;;;778
+ES617;Málaga;;3;;;779
+ES618;Sevilla;;3;;;780
+ES62;Región de Murcia;;2;;;781
+ES620;Murcia;;3;;;782
+ES63;Ciudad de Ceuta;;2;;;783
+ES630;Ceuta;;3;;;784
+ES64;Ciudad de Melilla;;2;;;785
+ES640;Melilla;;3;;;786
+ES7;Canarias;;1;;;787
+ES70;Canarias;;2;;;788
+ES703;El Hierro;;3;;;789
+ES704;Fuerteventura;;3;;;790
+ES705;Gran Canaria;;3;;;791
+ES706;La Gomera;;3;;;792
+ES707;La Palma;;3;;;793
+ES708;Lanzarote;;3;;;794
+ES709;Tenerife;;3;;;795
+ESZ;Extra-Regio NUTS 1;;1;;;796
+ESZZ;Extra-Regio NUTS 2;;2;;;797
+ESZZZ;Extra-Regio NUTS 3;;3;;;798
+FR;France;France;0;;;799
+FR1;Ile-de-France;;1;;;800
+FR10;Ile-de-France;;2;;;801
+FR101;Paris;;3;;;802
+FR102;Seine-et-Marne ;;3;;;803
+FR103;Yvelines ;;3;;;804
+FR104;Essonne;;3;;;805
+FR105;Hauts-de-Seine ;;3;;;806
+FR106;Seine-Saint-Denis ;;3;;;807
+FR107;Val-de-Marne;;3;;;808
+FR108;Val-d’Oise;;3;;;809
+FRB;Centre — Val de Loire;;1;;;810
+FRB0;Centre — Val de Loire;;2;;;811
+FRB01;Cher;;3;;;812
+FRB02;Eure-et-Loir;;3;;;813
+FRB03;Indre;;3;;;814
+FRB04;Indre-et-Loire;;3;;;815
+FRB05;Loir-et-Cher;;3;;;816
+FRB06;Loiret;;3;;;817
+FRC;Bourgogne-Franche-Comté;;1;;;818
+FRC1;Bourgogne;;2;;;819
+FRC11;Côte-d’Or;;3;;;820
+FRC12;Nièvre;;3;;;821
+FRC13;Saône-et-Loire;;3;;;822
+FRC14;Yonne;;3;;;823
+FRC2;Franche-Comté;;2;;;824
+FRC21;Doubs;;3;;;825
+FRC22;Jura;;3;;;826
+FRC23;Haute-Saône;;3;;;827
+FRC24;Territoire de Belfort;;3;;;828
+FRD;Normandie;;1;;;829
+FRD1;Basse-Normandie ;;2;;;830
+FRD11;Calvados ;;3;;;831
+FRD12;Manche ;;3;;;832
+FRD13;Orne;;3;;;833
+FRD2;Haute-Normandie ;;2;;;834
+FRD21;Eure;;3;;;835
+FRD22;Seine-Maritime;;3;;;836
+FRE;Hauts-de-France;;1;;;837
+FRE1;Nord-Pas de Calais;;2;;;838
+FRE11;Nord;;3;;;839
+FRE12;Pas-de-Calais;;3;;;840
+FRE2;Picardie;;2;;;841
+FRE21;Aisne;;3;;;842
+FRE22;Oise;;3;;;843
+FRE23;Somme;;3;;;844
+FRF;Grand Est;;1;;;845
+FRF1;Alsace;;2;;;846
+FRF11;Bas-Rhin;;3;;;847
+FRF12;Haut-Rhin;;3;;;848
+FRF2;Champagne-Ardenne;;2;;;849
+FRF21;Ardennes;;3;;;850
+FRF22;Aube;;3;;;851
+FRF23;Marne;;3;;;852
+FRF24;Haute-Marne;;3;;;853
+FRF3;Lorraine;;2;;;854
+FRF31;Meurthe-et-Moselle ;;3;;;855
+FRF32;Meuse ;;3;;;856
+FRF33;Moselle;;3;;;857
+FRF34;Vosges;;3;;;858
+FRG;Pays de la Loire;;1;;;859
+FRG0;Pays de la Loire;;2;;;860
+FRG01;Loire-Atlantique;;3;;;861
+FRG02;Maine-et-Loire;;3;;;862
+FRG03;Mayenne;;3;;;863
+FRG04;Sarthe;;3;;;864
+FRG05;Vendée;;3;;;865
+FRH;Bretagne;;1;;;866
+FRH0;Bretagne;;2;;;867
+FRH01;Côtes-d’Armor;;3;;;868
+FRH02;Finistère;;3;;;869
+FRH03;Ille-et-Vilaine;;3;;;870
+FRH04;Morbihan;;3;;;871
+FRI;Nouvelle-Aquitaine;;1;;;872
+FRI1;Aquitaine;;2;;;873
+FRI11;Dordogne;;3;;;874
+FRI12;Gironde;;3;;;875
+FRI13;Landes;;3;;;876
+FRI14;Lot-et-Garonne;;3;;;877
+FRI15;Pyrénées-Atlantiques;;3;;;878
+FRI2;Limousin;;2;;;879
+FRI21;Corrèze;;3;;;880
+FRI22;Creuse;;3;;;881
+FRI23;Haute-Vienne;;3;;;882
+FRI3;Poitou-Charentes;;2;;;883
+FRI31;Charente;;3;;;884
+FRI32;Charente-Maritime;;3;;;885
+FRI33;Deux-Sèvres;;3;;;886
+FRI34;Vienne;;3;;;887
+FRJ;Occitanie;;1;;;888
+FRJ1;Languedoc-Roussillon;;2;;;889
+FRJ11;Aude;;3;;;890
+FRJ12;Gard;;3;;;891
+FRJ13;Hérault;;3;;;892
+FRJ14;Lozère;;3;;;893
+FRJ15;Pyrénées-Orientales;;3;;;894
+FRJ2;Midi-Pyrénées;;2;;;895
+FRJ21;Ariège;;3;;;896
+FRJ22;Aveyron;;3;;;897
+FRJ23;Haute-Garonne;;3;;;898
+FRJ24;Gers;;3;;;899
+FRJ25;Lot;;3;;;900
+FRJ26;Hautes-Pyrénées ;;3;;;901
+FRJ27;Tarn;;3;;;902
+FRJ28;Tarn-et-Garonne;;3;;;903
+FRK;Auvergne-Rhône-Alpes;;1;;;904
+FRK1;Auvergne;;2;;;905
+FRK11;Allier;;3;;;906
+FRK12;Cantal;;3;;;907
+FRK13;Haute-Loire;;3;;;908
+FRK14;Puy-de-Dôme;;3;;;909
+FRK2;Rhône-Alpes;;2;;;910
+FRK21;Ain;;3;;;911
+FRK22;Ardèche;;3;;;912
+FRK23;Drôme;;3;;;913
+FRK24;Isère;;3;;;914
+FRK25;Loire;;3;;;915
+FRK26;Rhône;;3;;;916
+FRK27;Savoie;;3;;;917
+FRK28;Haute-Savoie;;3;;;918
+FRL;Provence-Alpes-Côte d’Azur;;1;;;919
+FRL0;Provence-Alpes-Côte d’Azur;;2;;;920
+FRL01;Alpes-de-Haute-Provence;;3;;;921
+FRL02;Hautes-Alpes ;;3;;;922
+FRL03;Alpes-Maritimes;;3;;;923
+FRL04;Bouches-du-Rhône;;3;;;924
+FRL05;Var;;3;;;925
+FRL06;Vaucluse;;3;;;926
+FRM;Corse;;1;;;927
+FRM0;Corse;;2;;;928
+FRM01;Corse-du-Sud;;3;;;929
+FRM02;Haute-Corse;;3;;;930
+FRY;RUP FR — Régions Ultrapériphériques Françaises;;1;;;931
+FRY1;Guadeloupe;;2;;;932
+FRY10;Guadeloupe;;3;;;933
+FRY2;Martinique ;;2;;;934
+FRY20;Martinique ;;3;;;935
+FRY3;Guyane;;2;;;936
+FRY30;Guyane;;3;;;937
+FRY4;La Réunion ;;2;;;938
+FRY40;La Réunion;;3;;;939
+FRY5;Mayotte;;2;;;940
+FRY50;Mayotte ;;3;;;941
+FRZ;Extra-Regio NUTS 1;;1;;;942
+FRZZ;Extra-Regio NUTS 2;;2;;;943
+FRZZZ;Extra-Regio NUTS 3;;3;;;944
+HR;Hrvatska;Croatia;0;;;945
+HR0;Hrvatska;;1;;;946
+HR02;Panonska Hrvatska;;2;;;947
+HR021;Bjelovarsko-bilogorska županija;;3;;;948
+HR022;Virovitičko-podravska županija;;3;;;949
+HR023;Požeško-slavonska županija;;3;;;950
+HR024;Brodsko-posavska županija;;3;;;951
+HR025;Osječko-baranjska županija;;3;;;952
+HR026;Vukovarsko-srijemska županija;;3;;;953
+HR027;Karlovačka županija;;3;;;954
+HR028;Sisačko-moslavačka županija;;3;;;955
+HR03;Jadranska Hrvatska;;2;;;956
+HR031;Primorsko-goranska županija;;3;;;957
+HR032;Ličko-senjska županija;;3;;;958
+HR033;Zadarska županija;;3;;;959
+HR034;Šibensko-kninska županija;;3;;;960
+HR035;Splitsko-dalmatinska županija;;3;;;961
+HR036;Istarska županija;;3;;;962
+HR037;Dubrovačko-neretvanska županija;;3;;;963
+HR05;Grad Zagreb;;2;;;964
+HR050;Grad Zagreb;;3;;;965
+HR06;Sjeverna Hrvatska;;2;;;966
+HR061;Međimurska županija;;3;;;967
+HR062;Varaždinska županija;;3;;;968
+HR063;Koprivničko-križevačka županija;;3;;;969
+HR064;Krapinsko-zagorska županija;;3;;;970
+HR065;Zagrebačka županija;;3;;;971
+HRZ;Extra-Regio NUTS 1;;1;;;972
+HRZZ;Extra-Regio NUTS 2;;2;;;973
+HRZZZ;Extra-Regio NUTS 3;;3;;;974
+IT;Italia;Italy;0;;;975
+ITC;Nord-Ovest;;1;;;976
+ITC1;Piemonte;;2;;;977
+ITC11;Torino;;3;;;978
+ITC12;Vercelli;;3;;;979
+ITC13;Biella;;3;;;980
+ITC14;Verbano-Cusio-Ossola;;3;;;981
+ITC15;Novara;;3;;;982
+ITC16;Cuneo;;3;;;983
+ITC17;Asti;;3;;;984
+ITC18;Alessandria;;3;;;985
+ITC2;Valle d’Aosta/Vallée d’Aoste;;2;;;986
+ITC20;Valle d’Aosta/Vallée d’Aoste;;3;;;987
+ITC3;Liguria;;2;;;988
+ITC31;Imperia;;3;;;989
+ITC32;Savona;;3;;;990
+ITC33;Genova;;3;;;991
+ITC34;La Spezia;;3;;;992
+ITC4;Lombardia;;2;;;993
+ITC41;Varese;;3;;;994
+ITC42;Como;;3;;;995
+ITC43;Lecco;;3;;;996
+ITC44;Sondrio;;3;;;997
+ITC46;Bergamo;;3;;;998
+ITC47;Brescia;;3;;;999
+ITC48;Pavia;;3;;;1000
+ITC49;Lodi;;3;;;1001
+ITC4A;Cremona;;3;;;1002
+ITC4B;Mantova;;3;;;1003
+ITC4C;Milano;;3;;;1004
+ITC4D;Monza e della Brianza;;3;;;1005
+ITF;Sud;;1;;;1006
+ITF1;Abruzzo;;2;;;1007
+ITF11;L’Aquila;;3;;;1008
+ITF12;Teramo;;3;;;1009
+ITF13;Pescara;;3;;;1010
+ITF14;Chieti;;3;;;1011
+ITF2;Molise;;2;;;1012
+ITF21;Isernia;;3;;;1013
+ITF22;Campobasso;;3;;;1014
+ITF3;Campania;;2;;;1015
+ITF31;Caserta;;3;;;1016
+ITF32;Benevento;;3;;;1017
+ITF33;Napoli;;3;;;1018
+ITF34;Avellino;;3;;;1019
+ITF35;Salerno;;3;;;1020
+ITF4;Puglia;;2;;;1021
+ITF43;Taranto;;3;;;1022
+ITF44;Brindisi;;3;;;1023
+ITF45;Lecce;;3;;;1024
+ITF46;Foggia;;3;;;1025
+ITF47;Bari;;3;;;1026
+ITF48;Barletta-Andria-Trani;;3;;;1027
+ITF5;Basilicata;;2;;;1028
+ITF51;Potenza;;3;;;1029
+ITF52;Matera;;3;;;1030
+ITF6;Calabria;;2;;;1031
+ITF61;Cosenza;;3;;;1032
+ITF62;Crotone;;3;;;1033
+ITF63;Catanzaro;;3;;;1034
+ITF64;Vibo Valentia;;3;;;1035
+ITF65;Reggio di Calabria;;3;;;1036
+ITG;Isole;;1;;;1037
+ITG1;Sicilia;;2;;;1038
+ITG11;Trapani;;3;;;1039
+ITG12;Palermo;;3;;;1040
+ITG13;Messina;;3;;;1041
+ITG14;Agrigento;;3;;;1042
+ITG15;Caltanissetta;;3;;;1043
+ITG16;Enna;;3;;;1044
+ITG17;Catania;;3;;;1045
+ITG18;Ragusa;;3;;;1046
+ITG19;Siracusa;;3;;;1047
+ITG2;Sardegna;;2;;;1048
+ITG2D;Sassari;;3;;;1049
+ITG2E;Nuoro;;3;;;1050
+ITG2F;Cagliari;;3;;;1051
+ITG2G;Oristano;;3;;;1052
+ITG2H;Sud Sardegna;;3;;;1053
+ITH;Nord-Est;;1;;;1054
+ITH1;Provincia Autonoma di Bolzano/Bozen;;2;;;1055
+ITH10;Bolzano-Bozen;;3;;;1056
+ITH2;Provincia Autonoma di Trento;;2;;;1057
+ITH20;Trento;;3;;;1058
+ITH3;Veneto;;2;;;1059
+ITH31;Verona;;3;;;1060
+ITH32;Vicenza;;3;;;1061
+ITH33;Belluno;;3;;;1062
+ITH34;Treviso;;3;;;1063
+ITH35;Venezia;;3;;;1064
+ITH36;Padova;;3;;;1065
+ITH37;Rovigo;;3;;;1066
+ITH4;Friuli-Venezia Giulia;;2;;;1067
+ITH41;Pordenone;;3;;;1068
+ITH42;Udine;;3;;;1069
+ITH43;Gorizia;;3;;;1070
+ITH44;Trieste;;3;;;1071
+ITH5;Emilia-Romagna;;2;;;1072
+ITH51;Piacenza;;3;;;1073
+ITH52;Parma;;3;;;1074
+ITH53;Reggio nell’Emilia;;3;;;1075
+ITH54;Modena;;3;;;1076
+ITH55;Bologna;;3;;;1077
+ITH56;Ferrara;;3;;;1078
+ITH57;Ravenna;;3;;;1079
+ITH58;Forlì-Cesena;;3;;;1080
+ITH59;Rimini;;3;;;1081
+ITI;Centro (IT);;1;;;1082
+ITI1;Toscana;;2;;;1083
+ITI11;Massa-Carrara;;3;;;1084
+ITI12;Lucca;;3;;;1085
+ITI13;Pistoia;;3;;;1086
+ITI14;Firenze;;3;;;1087
+ITI15;Prato;;3;;;1088
+ITI16;Livorno;;3;;;1089
+ITI17;Pisa;;3;;;1090
+ITI18;Arezzo;;3;;;1091
+ITI19;Siena;;3;;;1092
+ITI1A;Grosseto;;3;;;1093
+ITI2;Umbria;;2;;;1094
+ITI21;Perugia;;3;;;1095
+ITI22;Terni;;3;;;1096
+ITI3;Marche;;2;;;1097
+ITI31;Pesaro e Urbino;;3;;;1098
+ITI32;Ancona;;3;;;1099
+ITI33;Macerata;;3;;;1100
+ITI34;Ascoli Piceno;;3;;;1101
+ITI35;Fermo;;3;;;1102
+ITI4;Lazio;;2;;;1103
+ITI41;Viterbo;;3;;;1104
+ITI42;Rieti;;3;;;1105
+ITI43;Roma;;3;;;1106
+ITI44;Latina;;3;;;1107
+ITI45;Frosinone;;3;;;1108
+ITZ;Extra-Regio NUTS 1;;1;;;1109
+ITZZ;Extra-Regio NUTS 2;;2;;;1110
+ITZZZ;Extra-Regio NUTS 3;;3;;;1111
+CY;Κύπρος ;Cyprus;0;;;1112
+CY0;Κύπρος;;1;;;1113
+CY00;Κύπρος;;2;;;1114
+CY000;Κύπρος;;3;;;1115
+CYZ;Extra-Regio NUTS 1;;1;;;1116
+CYZZ;Extra-Regio NUTS 2;;2;;;1117
+CYZZZ;Extra-Regio NUTS 3;;3;;;1118
+LV;Latvija;Latvia;0;;;1119
+LV0;Latvija;;1;;;1120
+LV00;Latvija;;2;;;1121
+LV003;Kurzeme;;3;;;1122
+LV005;Latgale;;3;;;1123
+LV006;Rīga;;3;;;1124
+LV007;Pierīga;;3;;;1125
+LV008;Vidzeme;;3;;;1126
+LV009;Zemgale;;3;;;1127
+LVZ;Extra-Regio NUTS 1;;1;;;1128
+LVZZ;Extra-Regio NUTS 2;;2;;;1129
+LVZZZ;Extra-Regio NUTS 3;;3;;;1130
+LT;Lietuva;Lithuania;0;;;1131
+LT0;Lietuva;;1;;;1132
+LT01;Sostinės regionas;;2;;;1133
+LT011;Vilniaus apskritis;;3;;;1134
+LT02;Vidurio ir vakarų Lietuvos regionas ;;2;;;1135
+LT021;Alytaus apskritis;;3;;;1136
+LT022;Kauno apskritis;;3;;;1137
+LT023;Klaipėdos apskritis;;3;;;1138
+LT024;Marijampolės apskritis;;3;;;1139
+LT025;Panevėžio apskritis;;3;;;1140
+LT026;Šiaulių apskritis;;3;;;1141
+LT027;Tauragės apskritis;;3;;;1142
+LT028;Telšių apskritis;;3;;;1143
+LT029;Utenos apskritis;;3;;;1144
+LTZ;Extra-Regio NUTS 1;;1;;;1145
+LTZZ;Extra-Regio NUTS 2;;2;;;1146
+LTZZZ;Extra-Regio NUTS 3;;3;;;1147
+LU;Luxembourg;Luxembourg;0;;;1148
+LU0;Luxembourg;;1;;;1149
+LU00;Luxembourg;;2;;;1150
+LU000;Luxembourg;;3;;;1151
+LUZ;Extra-Regio NUTS 1;;1;;;1152
+LUZZ;Extra-Regio NUTS 2;;2;;;1153
+LUZZZ;Extra-Regio NUTS 3;;3;;;1154
+HU;Magyarország;Hungary;0;;;1155
+HU1;Közép-Magyarország;;1;;;1156
+HU11;Budapest;;2;;;1157
+HU110;Budapest;;3;;;1158
+HU12;Pest;;2;;;1159
+HU120;Pest;;3;;;1160
+HU2;Dunántúl;;1;;;1161
+HU21;Közép-Dunántúl;;2;;;1162
+HU211;Fejér;;3;;;1163
+HU212;Komárom-Esztergom;;3;;;1164
+HU213;Veszprém;;3;;;1165
+HU22;Nyugat-Dunántúl;;2;;;1166
+HU221;Győr-Moson-Sopron;;3;;;1167
+HU222;Vas;;3;;;1168
+HU223;Zala;;3;;;1169
+HU23;Dél-Dunántúl;;2;;;1170
+HU231;Baranya;;3;;;1171
+HU232;Somogy;;3;;;1172
+HU233;Tolna;;3;;;1173
+HU3;Alföld és Észak;;1;;;1174
+HU31;Észak-Magyarország;;2;;;1175
+HU311;Borsod-Abaúj-Zemplén;;3;;;1176
+HU312;Heves;;3;;;1177
+HU313;Nógrád;;3;;;1178
+HU32;Észak-Alföld;;2;;;1179
+HU321;Hajdú-Bihar;;3;;;1180
+HU322;Jász-Nagykun-Szolnok;;3;;;1181
+HU323;Szabolcs-Szatmár-Bereg;;3;;;1182
+HU33;Dél-Alföld;;2;;;1183
+HU331;Bács-Kiskun;;3;;;1184
+HU332;Békés;;3;;;1185
+HU333;Csongrád;;3;;;1186
+HUZ;Extra-Regio NUTS 1;;1;;;1187
+HUZZ;Extra-Regio NUTS 2;;2;;;1188
+HUZZZ;Extra-Regio NUTS 3;;3;;;1189
+MT;Malta;Malta;0;;;1190
+MT0;Malta;;1;;;1191
+MT00;Malta;;2;;;1192
+MT001;Malta;;3;;;1193
+MT002;Gozo and Comino/Għawdex u Kemmuna;;3;;;1194
+MTZ;Extra-Regio NUTS 1;;1;;;1195
+MTZZ;Extra-Regio NUTS 2;;2;;;1196
+MTZZZ;Extra-Regio NUTS 3;;3;;;1197
+NL;Nederland;Netherlands;0;;;1198
+NL1;Noord-Nederland;;1;;;1199
+NL11;Groningen;;2;;;1200
+NL111;Oost-Groningen;;3;;;1201
+NL112;Delfzijl en omgeving;;3;;;1202
+NL113;Overig Groningen;;3;;;1203
+NL12;Friesland (NL);;2;;;1204
+NL124;Noord-Friesland;;3;;;1205
+NL125;Zuidwest-Friesland;;3;;;1206
+NL126;Zuidoost-Friesland;;3;;;1207
+NL13;Drenthe;;2;;;1208
+NL131;Noord-Drenthe;;3;;;1209
+NL132;Zuidoost-Drenthe;;3;;;1210
+NL133;Zuidwest-Drenthe;;3;;;1211
+NL2;Oost-Nederland;;1;;;1212
+NL21;Overijssel;;2;;;1213
+NL211;Noord-Overijssel;;3;;;1214
+NL212;Zuidwest-Overijssel;;3;;;1215
+NL213;Twente;;3;;;1216
+NL22;Gelderland;;2;;;1217
+NL221;Veluwe;;3;;;1218
+NL224;Zuidwest-Gelderland;;3;;;1219
+NL225;Achterhoek;;3;;;1220
+NL226;Arnhem/Nijmegen;;3;;;1221
+NL23;Flevoland;;2;;;1222
+NL230;Flevoland;;3;;;1223
+NL3;West-Nederland;;1;;;1224
+NL31;Utrecht;;2;;;1225
+NL310;Utrecht;;3;;;1226
+NL32;Noord-Holland;;2;;;1227
+NL321;Kop van Noord-Holland;;3;;;1228
+NL323;IJmond;;3;;;1229
+NL324;Agglomeratie Haarlem;;3;;;1230
+NL325;Zaanstreek;;3;;;1231
+NL327;Het Gooi en Vechtstreek;;3;;;1232
+NL328;Alkmaar en omgeving;;3;;;1233
+NL329;Groot-Amsterdam;;3;;;1234
+NL33;Zuid-Holland;;2;;;1235
+NL332;Agglomeratie ’s-Gravenhage;;3;;;1236
+NL333;Delft en Westland;;3;;;1237
+NL337;Agglomeratie Leiden en Bollenstreek;;3;;;1238
+NL33A;Zuidoost-Zuid-Holland;;3;;;1239
+NL33B;Oost-Zuid-Holland;;3;;;1240
+NL33C;Groot-Rijnmond;;3;;;1241
+NL34;Zeeland;;2;;;1242
+NL341;Zeeuwsch-Vlaanderen;;3;;;1243
+NL342;Overig Zeeland;;3;;;1244
+NL4;Zuid-Nederland;;1;;;1245
+NL41;Noord-Brabant;;2;;;1246
+NL411;West-Noord-Brabant;;3;;;1247
+NL412;Midden-Noord-Brabant;;3;;;1248
+NL413;Noordoost-Noord-Brabant;;3;;;1249
+NL414;Zuidoost-Noord-Brabant;;3;;;1250
+NL42;Limburg (NL);;2;;;1251
+NL421;Noord-Limburg;;3;;;1252
+NL422;Midden-Limburg;;3;;;1253
+NL423;Zuid-Limburg;;3;;;1254
+NLZ;Extra-Regio NUTS 1;;1;;;1255
+NLZZ;Extra-Regio NUTS 2;;2;;;1256
+NLZZZ;Extra-Regio NUTS 3;;3;;;1257
+AT;Österreich;Austria;0;;;1258
+AT1;Ostösterreich;;1;;;1259
+AT11;Burgenland;;2;;;1260
+AT111;Mittelburgenland;;3;;;1261
+AT112;Nordburgenland;;3;;;1262
+AT113;Südburgenland;;3;;;1263
+AT12;Niederösterreich;;2;;;1264
+AT121;Mostviertel-Eisenwurzen;;3;;;1265
+AT122;Niederösterreich-Süd;;3;;;1266
+AT123;Sankt Pölten;;3;;;1267
+AT124;Waldviertel;;3;;;1268
+AT125;Weinviertel;;3;;;1269
+AT126;Wiener Umland/Nordteil;;3;;;1270
+AT127;Wiener Umland/Südteil;;3;;;1271
+AT13;Wien;;2;;;1272
+AT130;Wien;;3;;;1273
+AT2;Südösterreich;;1;;;1274
+AT21;Kärnten;;2;;;1275
+AT211;Klagenfurt-Villach;;3;;;1276
+AT212;Oberkärnten;;3;;;1277
+AT213;Unterkärnten;;3;;;1278
+AT22;Steiermark;;2;;;1279
+AT221;Graz;;3;;;1280
+AT222;Liezen;;3;;;1281
+AT223;Östliche Obersteiermark;;3;;;1282
+AT224;Oststeiermark;;3;;;1283
+AT225;West- und Südsteiermark;;3;;;1284
+AT226;Westliche Obersteiermark;;3;;;1285
+AT3;Westösterreich;;1;;;1286
+AT31;Oberösterreich;;2;;;1287
+AT311;Innviertel;;3;;;1288
+AT312;Linz-Wels;;3;;;1289
+AT313;Mühlviertel;;3;;;1290
+AT314;Steyr-Kirchdorf;;3;;;1291
+AT315;Traunviertel;;3;;;1292
+AT32;Salzburg;;2;;;1293
+AT321;Lungau;;3;;;1294
+AT322;Pinzgau-Pongau;;3;;;1295
+AT323;Salzburg und Umgebung;;3;;;1296
+AT33;Tirol;;2;;;1297
+AT331;Außerfern;;3;;;1298
+AT332;Innsbruck;;3;;;1299
+AT333;Osttirol;;3;;;1300
+AT334;Tiroler Oberland;;3;;;1301
+AT335;Tiroler Unterland;;3;;;1302
+AT34;Vorarlberg;;2;;;1303
+AT341;Bludenz-Bregenzer Wald;;3;;;1304
+AT342;Rheintal-Bodenseegebiet;;3;;;1305
+ATZ;Extra-Regio NUTS 1;;1;;;1306
+ATZZ;Extra-Regio NUTS 2;;2;;;1307
+ATZZZ;Extra-Regio NUTS 3;;3;;;1308
+PL;Polska;Poland;0;;;1309
+PL2;Makroregion południowy;;1;;;1310
+PL21;Małopolskie;;2;;;1311
+PL213;Miasto Kraków;;3;;;1312
+PL214;Krakowski;;3;;;1313
+PL217;Tarnowski;;3;;;1314
+PL218;Nowosądecki;;3;;;1315
+PL219;Nowotarski;;3;;;1316
+PL21A;Oświęcimski;;3;;;1317
+PL22;Śląskie;;2;;;1318
+PL224;Częstochowski;;3;;;1319
+PL225;Bielski;;3;;;1320
+PL227;Rybnicki;;3;;;1321
+PL228;Bytomski;;3;;;1322
+PL229;Gliwicki;;3;;;1323
+PL22A;Katowicki;;3;;;1324
+PL22B;Sosnowiecki;;3;;;1325
+PL22C;Tyski;;3;;;1326
+PL4;Makroregion północno-zachodni;;1;;;1327
+PL41;Wielkopolskie;;2;;;1328
+PL411;Pilski;;3;;;1329
+PL414;Koniński;;3;;;1330
+PL415;Miasto Poznań;;3;;;1331
+PL416;Kaliski;;3;;;1332
+PL417;Leszczyński;;3;;;1333
+PL418;Poznański;;3;;;1334
+PL42;Zachodniopomorskie;;2;;;1335
+PL424;Miasto Szczecin;;3;;;1336
+PL426;Koszaliński;;3;;;1337
+PL427;Szczecinecko-pyrzycki;;3;;;1338
+PL428;Szczeciński;;3;;;1339
+PL43;Lubuskie;;2;;;1340
+PL431;Gorzowski;;3;;;1341
+PL432;Zielonogórski;;3;;;1342
+PL5;Makroregion południowo-zachodni;;1;;;1343
+PL51;Dolnośląskie;;2;;;1344
+PL514;Miasto Wrocław;;3;;;1345
+PL515;Jeleniogórski;;3;;;1346
+PL516;Legnicko-głogowski;;3;;;1347
+PL517;Wałbrzyski;;3;;;1348
+PL518;Wrocławski;;3;;;1349
+PL52;Opolskie;;2;;;1350
+PL523;Nyski;;3;;;1351
+PL524;Opolski;;3;;;1352
+PL6;Makroregion północny;;1;;;1353
+PL61;Kujawsko-pomorskie;;2;;;1354
+PL613;Bydgosko-toruński;;3;;;1355
+PL616;Grudziądzki;;3;;;1356
+PL617;Inowrocławski;;3;;;1357
+PL618;Świecki;;3;;;1358
+PL619;Włocławski;;3;;;1359
+PL62;Warmińsko-mazurskie;;2;;;1360
+PL621;Elbląski;;3;;;1361
+PL622;Olsztyński;;3;;;1362
+PL623;Ełcki;;3;;;1363
+PL63;Pomorskie;;2;;;1364
+PL633;Trójmiejski;;3;;;1365
+PL634;Gdański;;3;;;1366
+PL636;Słupski;;3;;;1367
+PL637;Chojnicki;;3;;;1368
+PL638;Starogardzki;;3;;;1369
+PL7;Makroregion centralny;;1;;;1370
+PL71;Łódzkie;;2;;;1371
+PL711;Miasto Łódź;;3;;;1372
+PL712;Łódzki;;3;;;1373
+PL713;Piotrkowski;;3;;;1374
+PL714;Sieradzki;;3;;;1375
+PL715;Skierniewicki;;3;;;1376
+PL72;Świętokrzyskie;;2;;;1377
+PL721;Kielecki;;3;;;1378
+PL722;Sandomiersko-jędrzejowski;;3;;;1379
+PL8;Makroregion wschodni;;1;;;1380
+PL81;Lubelskie;;2;;;1381
+PL811;Bialski;;3;;;1382
+PL812;Chełmsko-zamojski;;3;;;1383
+PL814;Lubelski;;3;;;1384
+PL815;Puławski;;3;;;1385
+PL82;Podkarpackie;;2;;;1386
+PL821;Krośnieński;;3;;;1387
+PL822;Przemyski;;3;;;1388
+PL823;Rzeszowski;;3;;;1389
+PL824;Tarnobrzeski;;3;;;1390
+PL84;Podlaskie;;2;;;1391
+PL841;Białostocki;;3;;;1392
+PL842;Łomżyński;;3;;;1393
+PL843;Suwalski;;3;;;1394
+PL9;Makroregion województwo mazowieckie;;1;;;1395
+PL91;Warszawski stołeczny;;2;;;1396
+PL911;Miasto Warszawa;;3;;;1397
+PL912;Warszawski wschodni;;3;;;1398
+PL913;Warszawski zachodni;;3;;;1399
+PL92;Mazowiecki regionalny;;2;;;1400
+PL921;Radomski;;3;;;1401
+PL922;Ciechanowski;;3;;;1402
+PL923;Płocki;;3;;;1403
+PL924;Ostrołęcki;;3;;;1404
+PL925;Siedlecki;;3;;;1405
+PL926;Żyrardowski;;3;;;1406
+PLZ;Extra-Regio NUTS 1;;1;;;1407
+PLZZ;Extra-Regio NUTS 2;;2;;;1408
+PLZZZ;Extra-Regio NUTS 3;;3;;;1409
+PT;Portugal;Portugal;0;;;1410
+PT1;Continente;;1;;;1411
+PT11;Norte;;2;;;1412
+PT111;Alto Minho;;3;;;1413
+PT112;Cávado;;3;;;1414
+PT119;Ave;;3;;;1415
+PT11A;Área Metropolitana do Porto;;3;;;1416
+PT11B;Alto Tâmega;;3;;;1417
+PT11C;Tâmega e Sousa;;3;;;1418
+PT11D;Douro;;3;;;1419
+PT11E;Terras de Trás-os-Montes;;3;;;1420
+PT15;Algarve;;2;;;1421
+PT150;Algarve;;3;;;1422
+PT16;Centro (PT);;2;;;1423
+PT16B;Oeste;;3;;;1424
+PT16D;Região de Aveiro;;3;;;1425
+PT16E;Região de Coimbra;;3;;;1426
+PT16F;Região de Leiria;;3;;;1427
+PT16G;Viseu Dão Lafões;;3;;;1428
+PT16H;Beira Baixa;;3;;;1429
+PT16I;Médio Tejo;;3;;;1430
+PT16J;Beiras e Serra da Estrela;;3;;;1431
+PT17;Área Metropolitana de Lisboa;;2;;;1432
+PT170;Área Metropolitana de Lisboa;;3;;;1433
+PT18;Alentejo;;2;;;1434
+PT181;Alentejo Litoral;;3;;;1435
+PT184;Baixo Alentejo;;3;;;1436
+PT185;Lezíria do Tejo;;3;;;1437
+PT186;Alto Alentejo;;3;;;1438
+PT187;Alentejo Central;;3;;;1439
+PT2;Região Autónoma dos Açores;;1;;;1440
+PT20;Região Autónoma dos Açores;;2;;;1441
+PT200;Região Autónoma dos Açores;;3;;;1442
+PT3;Região Autónoma da Madeira;;1;;;1443
+PT30;Região Autónoma da Madeira;;2;;;1444
+PT300;Região Autónoma da Madeira;;3;;;1445
+PTZ;Extra-Regio NUTS 1;;1;;;1446
+PTZZ;Extra-Regio NUTS 2;;2;;;1447
+PTZZZ;Extra-Regio NUTS 3;;3;;;1448
+RO;România;Romania;0;;;1449
+RO1;Macroregiunea Unu;;1;;;1450
+RO11;Nord-Vest;;2;;;1451
+RO111;Bihor;;3;;;1452
+RO112;Bistriţa-Năsăud;;3;;;1453
+RO113;Cluj;;3;;;1454
+RO114;Maramureş;;3;;;1455
+RO115;Satu Mare;;3;;;1456
+RO116;Sălaj;;3;;;1457
+RO12;Centru;;2;;;1458
+RO121;Alba;;3;;;1459
+RO122;Braşov;;3;;;1460
+RO123;Covasna;;3;;;1461
+RO124;Harghita;;3;;;1462
+RO125;Mureş;;3;;;1463
+RO126;Sibiu;;3;;;1464
+RO2;Macroregiunea Doi;;1;;;1465
+RO21;Nord-Est;;2;;;1466
+RO211;Bacău;;3;;;1467
+RO212;Botoşani;;3;;;1468
+RO213;Iaşi;;3;;;1469
+RO214;Neamţ;;3;;;1470
+RO215;Suceava;;3;;;1471
+RO216;Vaslui;;3;;;1472
+RO22;Sud-Est;;2;;;1473
+RO221;Brăila;;3;;;1474
+RO222;Buzău;;3;;;1475
+RO223;Constanţa;;3;;;1476
+RO224;Galaţi;;3;;;1477
+RO225;Tulcea;;3;;;1478
+RO226;Vrancea;;3;;;1479
+RO3;Macroregiunea Trei;;1;;;1480
+RO31;Sud-Muntenia;;2;;;1481
+RO311;Argeş;;3;;;1482
+RO312;Călăraşi;;3;;;1483
+RO313;Dâmboviţa;;3;;;1484
+RO314;Giurgiu;;3;;;1485
+RO315;Ialomiţa;;3;;;1486
+RO316;Prahova;;3;;;1487
+RO317;Teleorman;;3;;;1488
+RO32;Bucureşti-Ilfov;;2;;;1489
+RO321;Bucureşti;;3;;;1490
+RO322; Ilfov;;3;;;1491
+RO4;Macroregiunea Patru;;1;;;1492
+RO41;Sud-Vest Oltenia;;2;;;1493
+RO411;Dolj;;3;;;1494
+RO412;Gorj;;3;;;1495
+RO413;Mehedinţi;;3;;;1496
+RO414;Olt;;3;;;1497
+RO415;Vâlcea;;3;;;1498
+RO42;Vest;;2;;;1499
+RO421;Arad;;3;;;1500
+RO422;Caraş-Severin;;3;;;1501
+RO423;Hunedoara;;3;;;1502
+RO424;Timiş;;3;;;1503
+ROZ;Extra-Regio NUTS 1;;1;;;1504
+ROZZ;Extra-Regio NUTS 2;;2;;;1505
+ROZZZ;Extra-Regio NUTS 3;;3;;;1506
+SI;Slovenija;Slovenia;0;;;1507
+SI0;Slovenija;;1;;;1508
+SI03;Vzhodna Slovenija;;2;;;1509
+SI031;Pomurska;;3;;;1510
+SI032;Podravska;;3;;;1511
+SI033;Koroška;;3;;;1512
+SI034;Savinjska;;3;;;1513
+SI035;Zasavska;;3;;;1514
+SI036;Posavska;;3;;;1515
+SI037;Jugovzhodna Slovenija;;3;;;1516
+SI038;Primorsko-notranjska;;3;;;1517
+SI04;Zahodna Slovenija;;2;;;1518
+SI041;Osrednjeslovenska;;3;;;1519
+SI042;Gorenjska;;3;;;1520
+SI043;Goriška;;3;;;1521
+SI044;Obalno-kraška;;3;;;1522
+SIZ;Extra-Regio NUTS 1;;1;;;1523
+SIZZ;Extra-Regio NUTS 2;;2;;;1524
+SIZZZ;Extra-Regio NUTS 3;;3;;;1525
+SK;Slovensko;Slovakia;0;;;1526
+SK0;Slovensko;;1;;;1527
+SK01;Bratislavský kraj;;2;;;1528
+SK010;Bratislavský kraj;;3;;;1529
+SK02;Západné Slovensko;;2;;;1530
+SK021;Trnavský kraj;;3;;;1531
+SK022;Trenčiansky kraj;;3;;;1532
+SK023;Nitriansky kraj;;3;;;1533
+SK03;Stredné Slovensko;;2;;;1534
+SK031;Žilinský kraj;;3;;;1535
+SK032;Banskobystrický kraj;;3;;;1536
+SK04;Východné Slovensko;;2;;;1537
+SK041;Prešovský kraj;;3;;;1538
+SK042;Košický kraj;;3;;;1539
+SKZ;Extra-Regio NUTS 1;;1;;;1540
+SKZZ;Extra-Regio NUTS 2;;2;;;1541
+SKZZZ;Extra-Regio NUTS 3;;3;;;1542
+FI;Suomi/Finland;Finland;0;;;1543
+FI1;Manner-Suomi;;1;;;1544
+FI19;Länsi-Suomi;;2;;;1545
+FI193;Keski-Suomi;;3;;;1546
+FI194;Etelä-Pohjanmaa;;3;;;1547
+FI195;Pohjanmaa;;3;;;1548
+FI196;Satakunta;;3;;;1549
+FI197;Pirkanmaa;;3;;;1550
+FI1B;Helsinki-Uusimaa;;2;;;1551
+FI1B1;Helsinki-Uusimaa;;3;;;1552
+FI1C;Etelä-Suomi;;2;;;1553
+FI1C1;Varsinais-Suomi;;3;;;1554
+FI1C2;Kanta-Häme;;3;;;1555
+FI1C3;Päijät-Häme;;3;;;1556
+FI1C4;Kymenlaakso;;3;;;1557
+FI1C5;Etelä-Karjala;;3;;;1558
+FI1D;Pohjois- ja Itä-Suomi;;2;;;1559
+FI1D1;Etelä-Savo;;3;;;1560
+FI1D2;Pohjois-Savo;;3;;;1561
+FI1D3;Pohjois-Karjala;;3;;;1562
+FI1D5;Keski-Pohjanmaa;;3;;;1563
+FI1D7;Lappi;;3;;;1564
+FI1D8;Kainuu;;3;;;1565
+FI1D9;Pohjois-Pohjanmaa;;3;;;1566
+FI2;Åland;;1;;;1567
+FI20;Åland;;2;;;1568
+FI200;Åland;;3;;;1569
+FIZ;Extra-Regio NUTS 1;;1;;;1570
+FIZZ;Extra-Regio NUTS 2;;2;;;1571
+FIZZZ;Extra-Regio NUTS 3;;3;;;1572
+SE;Sverige;Sweden;0;;;1573
+SE1;Östra Sverige;;1;;;1574
+SE11;Stockholm;;2;;;1575
+SE110;Stockholms län;;3;;;1576
+SE12;Östra Mellansverige;;2;;;1577
+SE121;Uppsala län;;3;;;1578
+SE122;Södermanlands län;;3;;;1579
+SE123;Östergötlands län;;3;;;1580
+SE124;Örebro län;;3;;;1581
+SE125;Västmanlands län;;3;;;1582
+SE2;Södra Sverige;;1;;;1583
+SE21;Småland med öarna;;2;;;1584
+SE211;Jönköpings län;;3;;;1585
+SE212;Kronobergs län;;3;;;1586
+SE213;Kalmar län;;3;;;1587
+SE214;Gotlands län;;3;;;1588
+SE22;Sydsverige;;2;;;1589
+SE221;Blekinge län;;3;;;1590
+SE224;Skåne län;;3;;;1591
+SE23;Västsverige;;2;;;1592
+SE231;Hallands län;;3;;;1593
+SE232;Västra Götalands län;;3;;;1594
+SE3;Norra Sverige;;1;;;1595
+SE31;Norra Mellansverige;;2;;;1596
+SE311;Värmlands län;;3;;;1597
+SE312;Dalarnas län;;3;;;1598
+SE313;Gävleborgs län;;3;;;1599
+SE32;Mellersta Norrland;;2;;;1600
+SE321;Västernorrlands län;;3;;;1601
+SE322;Jämtlands län;;3;;;1602
+SE33;Övre Norrland;;2;;;1603
+SE331;Västerbottens län;;3;;;1604
+SE332;Norrbottens län;;3;;;1605
+SEZ;Extra-Regio NUTS 1;;1;;;1606
+SEZZ;Extra-Regio NUTS 2;;2;;;1607
+SEZZZ;Extra-Regio NUTS 3;;3;;;1608
+UK;United Kingdom;United Kingdom;0;;;1609
+UKC;North East (England);;1;;;1610
+UKC1;Tees Valley and Durham;;2;;;1611
+UKC11;Hartlepool and Stockton-on-Tees;;3;;;1612
+UKC12;South Teesside;;3;;;1613
+UKC13;Darlington;;3;;;1614
+UKC14;Durham CC;;3;;;1615
+UKC2;Northumberland and Tyne and Wear;;2;;;1616
+UKC21;Northumberland;;3;;;1617
+UKC22;Tyneside;;3;;;1618
+UKC23;Sunderland;;3;;;1619
+UKD;North West (England);;1;;;1620
+UKD1;Cumbria;;2;;;1621
+UKD11;West Cumbria;;3;;;1622
+UKD12;East Cumbria;;3;;;1623
+UKD3;Greater Manchester;;2;;;1624
+UKD33;Manchester;;3;;;1625
+UKD34;Greater Manchester South West;;3;;;1626
+UKD35;Greater Manchester South East;;3;;;1627
+UKD36;Greater Manchester North West;;3;;;1628
+UKD37;Greater Manchester North East;;3;;;1629
+UKD4;Lancashire;;2;;;1630
+UKD41;Blackburn with Darwen;;3;;;1631
+UKD42;Blackpool;;3;;;1632
+UKD44;Lancaster and Wyre;;3;;;1633
+UKD45;Mid Lancashire;;3;;;1634
+UKD46;East Lancashire;;3;;;1635
+UKD47;Chorley and West Lancashire;;3;;;1636
+UKD6;Cheshire;;2;;;1637
+UKD61;Warrington;;3;;;1638
+UKD62;Cheshire East;;3;;;1639
+UKD63;Cheshire West and Chester;;3;;;1640
+UKD7;Merseyside;;2;;;1641
+UKD71;East Merseyside;;3;;;1642
+UKD72;Liverpool;;3;;;1643
+UKD73;Sefton;;3;;;1644
+UKD74;Wirral;;3;;;1645
+UKE;Yorkshire and the Humber;;1;;;1646
+UKE1;East Yorkshire and Northern Lincolnshire;;2;;;1647
+UKE11;Kingston upon Hull, City of;;3;;;1648
+UKE12;East Riding of Yorkshire;;3;;;1649
+UKE13;North and North East Lincolnshire;;3;;;1650
+UKE2;North Yorkshire;;2;;;1651
+UKE21;York;;3;;;1652
+UKE22;North Yorkshire CC;;3;;;1653
+UKE3;South Yorkshire;;2;;;1654
+UKE31;Barnsley, Doncaster and Rotherham;;3;;;1655
+UKE32;Sheffield;;3;;;1656
+UKE4;West Yorkshire;;2;;;1657
+UKE41;Bradford;;3;;;1658
+UKE42;Leeds;;3;;;1659
+UKE44;Calderdale and Kirklees;;3;;;1660
+UKE45;Wakefield;;3;;;1661
+UKF;East Midlands (England);;1;;;1662
+UKF1;Derbyshire and Nottinghamshire;;2;;;1663
+UKF11;Derby;;3;;;1664
+UKF12;East Derbyshire;;3;;;1665
+UKF13;South and West Derbyshire;;3;;;1666
+UKF14;Nottingham;;3;;;1667
+UKF15;North Nottinghamshire;;3;;;1668
+UKF16;South Nottinghamshire;;3;;;1669
+UKF2;Leicestershire, Rutland and Northamptonshire;;2;;;1670
+UKF21;Leicester;;3;;;1671
+UKF22;Leicestershire CC and Rutland;;3;;;1672
+UKF24;West Northamptonshire;;3;;;1673
+UKF25;North Northamptonshire;;3;;;1674
+UKF3;Lincolnshire;;2;;;1675
+UKF30;Lincolnshire;;3;;;1676
+UKG;West Midlands (England);;1;;;1677
+UKG1;Herefordshire, Worcestershire and Warwickshire;;2;;;1678
+UKG11;Herefordshire, County of;;3;;;1679
+UKG12;Worcestershire;;3;;;1680
+UKG13;Warwickshire;;3;;;1681
+UKG2;Shropshire and Staffordshire;;2;;;1682
+UKG21;Telford and Wrekin;;3;;;1683
+UKG22;Shropshire CC;;3;;;1684
+UKG23;Stoke-on-Trent;;3;;;1685
+UKG24;Staffordshire CC;;3;;;1686
+UKG3;West Midlands;;2;;;1687
+UKG31;Birmingham;;3;;;1688
+UKG32;Solihull;;3;;;1689
+UKG33;Coventry;;3;;;1690
+UKG36;Dudley;;3;;;1691
+UKG37;Sandwell;;3;;;1692
+UKG38;Walsall;;3;;;1693
+UKG39;Wolverhampton;;3;;;1694
+UKH;East of England;;1;;;1695
+UKH1;East Anglia;;2;;;1696
+UKH11;Peterborough;;3;;;1697
+UKH12;Cambridgeshire CC;;3;;;1698
+UKH14;Suffolk;;3;;;1699
+UKH15;Norwich and East Norfolk;;3;;;1700
+UKH16;North and West Norfolk;;3;;;1701
+UKH17;Breckland and South Norfolk;;3;;;1702
+UKH2;Bedfordshire and Hertfordshire;;2;;;1703
+UKH21;Luton;;3;;;1704
+UKH23;Hertfordshire;;3;;;1705
+UKH24;Bedford;;3;;;1706
+UKH25;Central Bedfordshire;;3;;;1707
+UKH3;Essex;;2;;;1708
+UKH31;Southend-on-Sea;;3;;;1709
+UKH32;Thurrock;;3;;;1710
+UKH34;Essex Haven Gateway;;3;;;1711
+UKH35;West Essex;;3;;;1712
+UKH36;Heart of Essex;;3;;;1713
+UKH37;Essex Thames Gateway;;3;;;1714
+UKI;London;;1;;;1715
+UKI3;Inner London — West;;2;;;1716
+UKI31;Camden and City of London;;3;;;1717
+UKI32;Westminster;;3;;;1718
+UKI33;Kensington & Chelsea and Hammersmith & Fulham;;3;;;1719
+UKI34;Wandsworth;;3;;;1720
+UKI4;Inner London — East;;2;;;1721
+UKI41;Hackney and Newham;;3;;;1722
+UKI42;Tower Hamlets;;3;;;1723
+UKI43;Haringey and Islington;;3;;;1724
+UKI44;Lewisham and Southwark;;3;;;1725
+UKI45;Lambeth;;3;;;1726
+UKI5;Outer London — East and North East;;2;;;1727
+UKI51;Bexley and Greenwich;;3;;;1728
+UKI52;Barking & Dagenham and Havering;;3;;;1729
+UKI53;Redbridge and Waltham Forest;;3;;;1730
+UKI54;Enfield;;3;;;1731
+UKI6;Outer London — South;;2;;;1732
+UKI61;Bromley;;3;;;1733
+UKI62;Croydon;;3;;;1734
+UKI63;Merton, Kingston upon Thames and Sutton;;3;;;1735
+UKI7;Outer London — West and North West;;2;;;1736
+UKI71;Barnet;;3;;;1737
+UKI72;Brent;;3;;;1738
+UKI73;Ealing;;3;;;1739
+UKI74;Harrow and Hillingdon;;3;;;1740
+UKI75;Hounslow and Richmond upon Thames;;3;;;1741
+UKJ;South East (England);;1;;;1742
+UKJ1;Berkshire, Buckinghamshire and Oxfordshire;;2;;;1743
+UKJ11;Berkshire;;3;;;1744
+UKJ12;Milton Keynes;;3;;;1745
+UKJ13;Buckinghamshire CC;;3;;;1746
+UKJ14;Oxfordshire;;3;;;1747
+UKJ2;Surrey, East and West Sussex;;2;;;1748
+UKJ21;Brighton and Hove;;3;;;1749
+UKJ22;East Sussex CC;;3;;;1750
+UKJ25;West Surrey;;3;;;1751
+UKJ26;East Surrey;;3;;;1752
+UKJ27;West Sussex (South West);;3;;;1753
+UKJ28;West Sussex (North East);;3;;;1754
+UKJ3;Hampshire and Isle of Wight;;2;;;1755
+UKJ31;Portsmouth;;3;;;1756
+UKJ32;Southampton;;3;;;1757
+UKJ34;Isle of Wight;;3;;;1758
+UKJ35;South Hampshire;;3;;;1759
+UKJ36;Central Hampshire;;3;;;1760
+UKJ37;North Hampshire;;3;;;1761
+UKJ4;Kent;;2;;;1762
+UKJ41;Medway;;3;;;1763
+UKJ43;Kent Thames Gateway;;3;;;1764
+UKJ44;East Kent;;3;;;1765
+UKJ45;Mid Kent;;3;;;1766
+UKJ46;West Kent;;3;;;1767
+UKK;South West (England);;1;;;1768
+UKK1;Gloucestershire, Wiltshire and Bristol/Bath area;;2;;;1769
+UKK11;Bristol, City of;;3;;;1770
+UKK12;Bath and North East Somerset, North Somerset and South Gloucestershire;;3;;;1771
+UKK13;Gloucestershire;;3;;;1772
+UKK14;Swindon;;3;;;1773
+UKK15;Wiltshire CC;;3;;;1774
+UKK2;Dorset and Somerset;;2;;;1775
+UKK23;Somerset;;3;;;1776
+UKK24;Bournemouth, Christchurch and Poole;;3;;;1777
+UKK25;Dorset;;3;;;1778
+UKK3;Cornwall and Isles of Scilly;;2;;;1779
+UKK30;Cornwall and Isles of Scilly;;3;;;1780
+UKK4;Devon;;2;;;1781
+UKK41;Plymouth;;3;;;1782
+UKK42;Torbay;;3;;;1783
+UKK43;Devon CC;;3;;;1784
+UKL;Wales;;1;;;1785
+UKL1;West Wales and The Valleys;;2;;;1786
+UKL11;Isle of Anglesey;;3;;;1787
+UKL12;Gwynedd;;3;;;1788
+UKL13;Conwy and Denbighshire;;3;;;1789
+UKL14;South West Wales;;3;;;1790
+UKL15;Central Valleys;;3;;;1791
+UKL16;Gwent Valleys;;3;;;1792
+UKL17;Bridgend and Neath Port Talbot;;3;;;1793
+UKL18;Swansea;;3;;;1794
+UKL2;East Wales;;2;;;1795
+UKL21;Monmouthshire and Newport;;3;;;1796
+UKL22;Cardiff and Vale of Glamorgan;;3;;;1797
+UKL23;Flintshire and Wrexham;;3;;;1798
+UKL24;Powys;;3;;;1799
+UKM;Scotland;;1;;;1800
+UKM5;North Eastern Scotland;;2;;;1801
+UKM50;Aberdeen City and Aberdeenshire;;3;;;1802
+UKM6;Highlands and Islands;;2;;;1803
+UKM61;Caithness & Sutherland and Ross & Cromarty;;3;;;1804
+UKM62;Inverness & Nairn and Moray, Badenoch & Strathspey;;3;;;1805
+UKM63;Lochaber, Skye & Lochalsh, Arran & Cumbrae and Argyll & Bute;;3;;;1806
+UKM64;Na h-Eileanan Siar (Western Isles);;3;;;1807
+UKM65;Orkney Islands;;3;;;1808
+UKM66;Shetland Islands;;3;;;1809
+UKM7;Eastern Scotland;;2;;;1810
+UKM71;Angus and Dundee City;;3;;;1811
+UKM72;Clackmannanshire and Fife;;3;;;1812
+UKM73;East Lothian and Midlothian;;3;;;1813
+UKM75;Edinburgh, City of;;3;;;1814
+UKM76;Falkirk;;3;;;1815
+UKM77;Perth & Kinross and Stirling;;3;;;1816
+UKM78;West Lothian;;3;;;1817
+UKM8;West Central Scotland;;2;;;1818
+UKM81;East Dunbartonshire, West Dunbartonshire and Helensburgh & Lomond;;3;;;1819
+UKM82;Glasgow City;;3;;;1820
+UKM83;Inverclyde, East Renfrewshire and Renfrewshire;;3;;;1821
+UKM84;North Lanarkshire;;3;;;1822
+UKM9;Southern Scotland;;2;;;1823
+UKM91;Scottish Borders;;3;;;1824
+UKM92;Dumfries & Galloway;;3;;;1825
+UKM93;East Ayrshire and North Ayrshire mainland;;3;;;1826
+UKM94;South Ayrshire;;3;;;1827
+UKM95;South Lanarkshire;;3;;;1828
+UKN;Northern Ireland;;1;;;1829
+UKN0;Northern Ireland;;2;;;1830
+UKN06;Belfast;;3;;;1831
+UKN07;Armagh City, Banbridge and Craigavon;;3;;;1832
+UKN08;Newry, Mourne and Down;;3;;;1833
+UKN09;Ards and North Down ;;3;;;1834
+UKN0A;Derry City and Strabane;;3;;;1835
+UKN0B;Mid Ulster;;3;;;1836
+UKN0C;Causeway Coast and Glens;;3;;;1837
+UKN0D;Antrim and Newtownabbey;;3;;;1838
+UKN0E;Lisburn and Castlereagh;;3;;;1839
+UKN0F;Mid and East Antrim;;3;;;1840
+UKN0G;Fermanagh and Omagh;;3;;;1841
+UKZ;Extra-Regio NUTS 1;;1;;;1842
+UKZZ;Extra-Regio NUTS 2;;2;;;1843
+UKZZZ;Extra-Regio NUTS 3;;3;;;1844
+IS;Ísland;Iceland;0;;;1845
+IS0;Ísland;;1;;;1846
+IS00;Ísland;;2;;;1847
+IS001;Höfuðborgarsvæði;;3;;;1848
+IS002;Landsbyggð;;3;;;1849
+ISZ;Extra-Regio NUTS 1;;1;;;1850
+ISZZ;Extra-Regio NUTS 2;;2;;;1851
+ISZZZ;Extra-Regio NUTS 3;;3;;;1852
+LI;Liechtenstein;Liechtenstein;0;;;1853
+LI0;Liechtenstein;;1;;;1854
+LI00;Liechtenstein;;2;;;1855
+LI000;Liechtenstein;;3;;;1856
+LIZ;Extra-Regio NUTS 1;;1;;;1857
+LIZZ;Extra-Regio NUTS 2;;2;;;1858
+LIZZZ;Extra-Regio NUTS 3;;3;;;1859
+NO;Norge;Norway;0;;;1860
+NO0;Norge;;1;;;1861
+NO02;Innlandet;;2;;;1862
+NO020;Innlandet;;3;;;1863
+NO06;Trøndelag;;2;;;1864
+NO060;Trøndelag;;3;;;1865
+NO07;Nord-Norge;;2;;;1866
+NO071;Nordland;;3;;;1867
+NO074;Troms og Finnmark;;3;;;1868
+NO08;Oslo og Viken;;2;;;1869
+NO081;Oslo;;3;;;1870
+NO082;Viken;;3;;;1871
+NO09;Agder og Sør-Østlandet;;2;;;1872
+NO091;Vestfold og Telemark;;3;;;1873
+NO092;Agder;;3;;;1874
+NO0A;Vestlandet;;2;;;1875
+NO0A1;Rogaland;;3;;;1876
+NO0A2;Vestland;;3;;;1877
+NO0A3;Møre og Romsdal;;3;;;1878
+NO0B;Svalbard og Jan Mayen;;2;;;1879
+NO0B1;Jan Mayen;;3;;;1880
+NO0B2;Svalbard;;3;;;1881
+NOZ;Extra-Regio NUTS 1;;1;;;1882
+NOZZ;Extra-Regio NUTS 2;;2;;;1883
+NOZZZ;Extra-Regio NUTS 3;;3;;;1884
+CH;Schweiz/Suisse/Svizzera;Switzerland;0;;;1885
+CH0;Schweiz/Suisse/Svizzera;;1;;;1886
+CH01;Région lémanique;;2;;;1887
+CH011;Vaud;;3;;;1888
+CH012;Valais / Wallis;;3;;;1889
+CH013;Genève;;3;;;1890
+CH02;Espace Mittelland;;2;;;1891
+CH021;Bern / Berne;;3;;;1892
+CH022;Fribourg / Freiburg;;3;;;1893
+CH023;Solothurn;;3;;;1894
+CH024;Neuchâtel;;3;;;1895
+CH025;Jura;;3;;;1896
+CH03;Nordwestschweiz;;2;;;1897
+CH031;Basel-Stadt;;3;;;1898
+CH032;Basel-Landschaft;;3;;;1899
+CH033;Aargau;;3;;;1900
+CH04;Zürich;;2;;;1901
+CH040;Zürich;;3;;;1902
+CH05;Ostschweiz;;2;;;1903
+CH051;Glarus;;3;;;1904
+CH052;Schaffhausen;;3;;;1905
+CH053;Appenzell Ausserrhoden;;3;;;1906
+CH054;Appenzell Innerrhoden;;3;;;1907
+CH055;St. Gallen;;3;;;1908
+CH056;Graubünden / Grigioni / Grischun;;3;;;1909
+CH057;Thurgau;;3;;;1910
+CH06;Zentralschweiz;;2;;;1911
+CH061;Luzern;;3;;;1912
+CH062;Uri;;3;;;1913
+CH063;Schwyz;;3;;;1914
+CH064;Obwalden;;3;;;1915
+CH065;Nidwalden;;3;;;1916
+CH066;Zug;;3;;;1917
+CH07;Ticino;;2;;;1918
+CH070;Ticino;;3;;;1919
+CHZ;Extra-Regio NUTS 1;;1;;;1920
+CHZZ;Extra-Regio NUTS 2;;2;;;1921
+CHZZZ;Extra-Regio NUTS 3;;3;;;1922
+ME;Црна Гора ;Montenegro;0;;;1923
+ME0;Црна Гора ;;1;;;1924
+ME00;Црна Гора;;2;;;1925
+ME000;Црна Гора;;3;;;1926
+MEZ;Extra-Regio NUTS 1;;1;;;1927
+MEZZ;Extra-Regio NUTS 2;;2;;;1928
+MEZZZ;Extra-Regio NUTS 3;;3;;;1929
+MK;Северна Македонија;North Macedonia;0;;;1930
+MK0;Северна Македонија;;1;;;1931
+MK00;Северна Македонија;;2;;;1932
+MK001;Вардарски;;3;;;1933
+MK002;Источен;;3;;;1934
+MK003;Југозападен;;3;;;1935
+MK004;Југоисточен;;3;;;1936
+MK005;Пелагониски;;3;;;1937
+MK006;Полошки;;3;;;1938
+MK007;Североисточен;;3;;;1939
+MK008;Скопски;;3;;;1940
+MKZ;Extra-Regio NUTS 1;;1;;;1941
+MKZZ;Extra-Regio NUTS 2;;2;;;1942
+MKZZZ;Extra-Regio NUTS 3;;3;;;1943
+AL;Shqipëria;Albania;0;;;1944
+AL0;Shqipëria;;1;;;1945
+AL01;Veri;;2;;;1946
+AL011;Dibër;;3;;;1947
+AL012;Durrës;;3;;;1948
+AL013;Kukës;;3;;;1949
+AL014;Lezhë;;3;;;1950
+AL015;Shkodër;;3;;;1951
+AL02;Qender;;2;;;1952
+AL021;Elbasan;;3;;;1953
+AL022;Tiranë;;3;;;1954
+AL03;Jug;;2;;;1955
+AL031;Berat;;3;;;1956
+AL032;Fier;;3;;;1957
+AL033;Gjirokastër;;3;;;1958
+AL034;Korcë;;3;;;1959
+AL035;Vlorë;;3;;;1960
+ALZ;Extra-Regio NUTS 1;;1;;;1961
+ALZZ;Extra-Regio NUTS 2;;2;;;1962
+ALZZZ;Extra-Regio NUTS 3;;3;;;1963
+RS;Srbija/Сpбија;Serbia;0;;;1964
+RS1;Србија - север ;;1;;;1965
+RS11;Београдски регион;;2;;;1966
+RS110;Београдска област;;3;;;1967
+RS12;Регион Војводине;;2;;;1968
+RS121;Западнобачка област;;3;;;1969
+RS122;Јужнобанатска област;;3;;;1970
+RS123;Јужнобачка област;;3;;;1971
+RS124;Севернобанатска област;;3;;;1972
+RS125;Севернобачка област;;3;;;1973
+RS126;Средњобанатска област;;3;;;1974
+RS127;Сремска област;;3;;;1975
+RS2;Србија - југ ;;1;;;1976
+RS21;Регион Шумадије и Западне Србије;;2;;;1977
+RS211;Златиборска област;;3;;;1978
+RS212;Колубарска област;;3;;;1979
+RS213;Мачванска област;;3;;;1980
+RS214;Моравичка област;;3;;;1981
+RS215;Поморавска област;;3;;;1982
+RS216;Расинска област;;3;;;1983
+RS217;Рашка област;;3;;;1984
+RS218;Шумадијска област;;3;;;1985
+RS22;Регион Јужне и Источне Србије;;2;;;1986
+RS221;Борска област;;3;;;1987
+RS222;Браничевска област;;3;;;1988
+RS223;Зајечарска област;;3;;;1989
+RS224;Јабланичка област;;3;;;1990
+RS225;Нишавска област;;3;;;1991
+RS226;Пиротска област;;3;;;1992
+RS227;Подунавска област;;3;;;1993
+RS228;Пчињска област;;3;;;1994
+RS229;Топличка област;;3;;;1995
+RSZ;Extra-Regio NUTS 1;;1;;;1996
+RSZZ;Extra-Regio NUTS 2;;2;;;1997
+RSZZZ;Extra-Regio NUTS 3;;3;;;1998
+TR;Türkiye;Turkey;0;;;1999
+TR1;İstanbul;;1;;;2000
+TR10;İstanbul;;2;;;2001
+TR100;İstanbul;;3;;;2002
+TR2;Batı Marmara;;1;;;2003
+TR21;Tekirdağ, Edirne, Kırklareli;;2;;;2004
+TR211;Tekirdağ;;3;;;2005
+TR212;Edirne;;3;;;2006
+TR213;Kırklareli;;3;;;2007
+TR22;Balıkesir, Çanakkale;;2;;;2008
+TR221;Balıkesir;;3;;;2009
+TR222;Çanakkale;;3;;;2010
+TR3;Ege;;1;;;2011
+TR31;İzmir;;2;;;2012
+TR310;İzmir;;3;;;2013
+TR32;Aydın, Denizli, Muğla;;2;;;2014
+TR321;Aydın;;3;;;2015
+TR322;Denizli;;3;;;2016
+TR323;Muğla;;3;;;2017
+TR33;Manisa, Afyonkarahisar, Kütahya, Uşak;;2;;;2018
+TR331;Manisa;;3;;;2019
+TR332;Afyonkarahisar;;3;;;2020
+TR333;Kütahya;;3;;;2021
+TR334;Uşak;;3;;;2022
+TR4;Doğu Marmara;;1;;;2023
+TR41;Bursa, Eskişehir, Bilecik;;2;;;2024
+TR411;Bursa;;3;;;2025
+TR412;Eskişehir;;3;;;2026
+TR413;Bilecik;;3;;;2027
+TR42;Kocaeli, Sakarya, Düzce, Bolu, Yalova;;2;;;2028
+TR421;Kocaeli;;3;;;2029
+TR422;Sakarya;;3;;;2030
+TR423;Düzce;;3;;;2031
+TR424;Bolu;;3;;;2032
+TR425;Yalova;;3;;;2033
+TR5;Batı Anadolu;;1;;;2034
+TR51;Ankara;;2;;;2035
+TR510;Ankara;;3;;;2036
+TR52;Konya, Karaman;;2;;;2037
+TR521;Konya;;3;;;2038
+TR522;Karaman;;3;;;2039
+TR6;Akdeniz;;1;;;2040
+TR61;Antalya, Isparta, Burdur;;2;;;2041
+TR611;Antalya;;3;;;2042
+TR612;Isparta;;3;;;2043
+TR613;Burdur;;3;;;2044
+TR62;Adana, Mersin;;2;;;2045
+TR621;Adana;;3;;;2046
+TR622;Mersin;;3;;;2047
+TR63;Hatay, Kahramanmaraş, Osmaniye;;2;;;2048
+TR631;Hatay;;3;;;2049
+TR632;Kahramanmaraş;;3;;;2050
+TR633;Osmaniye;;3;;;2051
+TR7;Orta Anadolu;;1;;;2052
+TR71;Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir;;2;;;2053
+TR711;Kırıkkale;;3;;;2054
+TR712;Aksaray;;3;;;2055
+TR713;Niğde;;3;;;2056
+TR714;Nevşehir;;3;;;2057
+TR715;Kırşehir;;3;;;2058
+TR72;Kayseri, Sivas, Yozgat;;2;;;2059
+TR721;Kayseri;;3;;;2060
+TR722;Sivas;;3;;;2061
+TR723;Yozgat;;3;;;2062
+TR8;Batı Karadeniz;;1;;;2063
+TR81;Zonguldak, Karabük, Bartın;;2;;;2064
+TR811;Zonguldak;;3;;;2065
+TR812;Karabük;;3;;;2066
+TR813;Bartın;;3;;;2067
+TR82;Kastamonu, Çankırı, Sinop;;2;;;2068
+TR821;Kastamonu;;3;;;2069
+TR822;Çankırı;;3;;;2070
+TR823;Sinop;;3;;;2071
+TR83;Samsun, Tokat, Çorum, Amasya;;2;;;2072
+TR831;Samsun;;3;;;2073
+TR832;Tokat;;3;;;2074
+TR833;Çorum;;3;;;2075
+TR834;Amasya;;3;;;2076
+TR9;Doğu Karadeniz;;1;;;2077
+TR90;Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane;;2;;;2078
+TR901;Trabzon;;3;;;2079
+TR902;Ordu;;3;;;2080
+TR903;Giresun;;3;;;2081
+TR904;Rize;;3;;;2082
+TR905;Artvin;;3;;;2083
+TR906;Gümüşhane;;3;;;2084
+TRA;Kuzeydoğu Anadolu;;1;;;2085
+TRA1;Erzurum, Erzincan, Bayburt;;2;;;2086
+TRA11;Erzurum;;3;;;2087
+TRA12;Erzincan;;3;;;2088
+TRA13;Bayburt;;3;;;2089
+TRA2;Ağrı, Kars, Iğdır, Ardahan;;2;;;2090
+TRA21;Ağrı;;3;;;2091
+TRA22;Kars;;3;;;2092
+TRA23;Iğdır;;3;;;2093
+TRA24;Ardahan;;3;;;2094
+TRB;Ortadoğu Anadolu;;1;;;2095
+TRB1;Malatya, Elazığ, Bingöl, Tunceli;;2;;;2096
+TRB11;Malatya;;3;;;2097
+TRB12;Elazığ;;3;;;2098
+TRB13;Bingöl;;3;;;2099
+TRB14;Tunceli;;3;;;2100
+TRB2;Van, Muş, Bitlis, Hakkari;;2;;;2101
+TRB21;Van;;3;;;2102
+TRB22;Muş;;3;;;2103
+TRB23;Bitlis;;3;;;2104
+TRB24;Hakkari;;3;;;2105
+TRC;Güneydoğu Anadolu;;1;;;2106
+TRC1;Gaziantep, Adıyaman, Kilis;;2;;;2107
+TRC11;Gaziantep;;3;;;2108
+TRC12;Adıyaman;;3;;;2109
+TRC13;Kilis;;3;;;2110
+TRC2;Şanlıurfa, Diyarbakır;;2;;;2111
+TRC21;Şanlıurfa;;3;;;2112
+TRC22;Diyarbakır;;3;;;2113
+TRC3;Mardin, Batman, Şırnak, Siirt;;2;;;2114
+TRC31;Mardin;;3;;;2115
+TRC32;Batman;;3;;;2116
+TRC33;Şırnak;;3;;;2117
+TRC34;Siirt;;3;;;2118
+TRZ;Extra-Regio NUTS 1;;1;;;2119
+TRZZ;Extra-Regio NUTS 2;;2;;;2120
+TRZZZ;Extra-Regio NUTS 3;;3;;;2121
