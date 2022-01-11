@@ -1,1 +1,1 @@
-from .geography import Geography
+from .geography import Geography, NutsPostcode

@@ -13,3 +13,14 @@ class Geography(models.Model):
 
     def __str__(self):
         return f'{self.original_name}-{self.code}'
+
+
+class NutsPostcode(models.Model):
+    class Meta:
+        unique_together = ('nuts', 'postcode')
+
+    nuts = models.CharField(max_length=16)
+    postcode = models.CharField(max_length=16)
+
+    def __str__(self):
+        return f'{self.nuts}-{self.postcode}'
