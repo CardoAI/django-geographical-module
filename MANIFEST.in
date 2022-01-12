@@ -1,3 +1,6 @@
 include LICENSE
 include README.rst
-include idp_user/services/policy.rego
+include geographical_module/fixtures/nuts.yaml
+include geographical_module/scripts/final_docs/*
+include geographical_module/scripts/nuts_postcode_csvs/*
+include geographical_module/scripts/nuts.csv

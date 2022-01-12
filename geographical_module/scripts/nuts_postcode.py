@@ -36,7 +36,7 @@ def create_nuts_postcode_records_for_db():
     if file_exists(nuts_postcode_csv, raise_exception=True):
         df = pd.read_csv(nuts_postcode_csv,
                          delimiter=';')
-        print(df.shape[0])
+        print(f'Total records to be created: {df.shape[0]:,}')
         clear_and_reset_indexes_of_nuts_postcode_table()
         print('Creating list, processing df...')
         nuts_postcodes = [NutsPostcode(nuts=row.nuts, postcode=row.postcode) for _, row in
@@ -50,4 +50,6 @@ def clear_and_reset_indexes_of_nuts_postcode_table():
     # TODO-Find a way to clear the table and reset index via orm or smthg else to not be dependent
     #  on the TRUNCATE statement
     with connection.cursor() as cursor:
+        print('Cleaning old records of nuts3-postcode and resetting indexes...')
         cursor.execute("TRUNCATE TABLE geographical_module_nutspostcode RESTART IDENTITY;")
+        print('Old records cleaned.')

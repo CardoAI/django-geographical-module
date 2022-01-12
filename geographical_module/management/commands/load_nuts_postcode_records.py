@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 
-from scripts.nuts_postcode import create_nuts_postcode_records_for_db
+from geographical_module.scripts.nuts_postcode import create_nuts_postcode_records_for_db
 
 
 class Command(BaseCommand):
