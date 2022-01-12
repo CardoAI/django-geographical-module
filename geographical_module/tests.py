@@ -1,3 +1,1 @@
-from django.test import TestCase
-
-# Create your tests here.
+# TODO: Verify that the clean method during the creation of a Geography works.
