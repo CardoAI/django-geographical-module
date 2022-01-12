@@ -1,5 +1,4 @@
 import os
-
 import pandas as pd
 from django.db import connection, transaction
 
@@ -9,6 +8,12 @@ from .utils import create_path_to_directory_or_file, remove_file, file_exists
 
 
 def create_nuts_postcode_csv():
+    """
+    Read from all the csv file supplied from EU regarding NUTS3 and their postcodes. CSV files are stored in 'nuts_postcode_csvs' directory.
+    After reading all the files create a df with all the data and export it to a new csv file name: 'nuts_postcodes' in the 'final_docs' directory.
+    This file is used to create the records in db.
+    If no files are found in the nuts_postcode_csvs dir than an exception will be raised since no file will be created from an empty df.
+    """
     nuts_postcode_path = create_path_to_directory_or_file(FINAL_DOCS_DIR, NUTS_POSTCODE_FILE)
     overall_df = pd.DataFrame(columns=['NUTS3', 'CODE'])
     print('Iterating and creating overall_df...')
@@ -32,6 +37,11 @@ def create_nuts_postcode_csv():
 
 @transaction.atomic()
 def create_nuts_postcode_records_for_db():
+    """
+     Function is used in 'load_nuts_postcode_records' command. It checks if the 'nuts_postcodesnuts_postcodes' file exists and if so it uses it to create
+     the records in db. Before creating the records it clears the table and resets its index.
+     If the file doesn't exist, function will throw an error: FileNotFound
+    """
     nuts_postcode_csv = create_path_to_directory_or_file(FINAL_DOCS_DIR, NUTS_POSTCODE_FILE)
     if file_exists(nuts_postcode_csv, raise_exception=True):
         df = pd.read_csv(nuts_postcode_csv,

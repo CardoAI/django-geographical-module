@@ -1,13 +1,12 @@
-#
-# ASK IF NEEDED IN PRODUCTION
-# IF YES, ADD THE PyYAML and pandas TO REQUIREMENTS AND setup.cfg
-#
-
 import pandas as pd
 import yaml
 
 
 def nuts_format():
+    """
+    Read the manually preprocessed csv of NUTS and their codes and names together with some extra headers needed for the module.
+    After reading and processing the csv if creates a fixture: 'nuts.yaml' to be used for loading data in db via load_initial_nuts_data command.
+    """
     file = 'scripts/nuts.csv'
     nuts_df = pd.read_csv(filepath_or_buffer=file, delimiter=';')
     nuts_df.en_name = nuts_df.en_name.fillna('').astype(str)
