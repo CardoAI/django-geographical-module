@@ -1,3 +1,4 @@
 Django
 pandas
 PyYAML
+django-model-utils
