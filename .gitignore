@@ -1,2 +1,3 @@
 .idea/
 !geographical_module/scripts/final_docs/.keep
+*.egg-info/*
