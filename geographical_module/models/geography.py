@@ -18,11 +18,16 @@ class Geography(models.Model):
 
     def clean(self):
         """Make sure that new records that are added respect the hierarchy."""
-
-        if self.parent.top_parent_id is not None and self.parent.top_parent_id != self.top_parent_id:
+        if self.level != 0 and not (self.parent_id and self.top_parent_id):
+            raise ValidationError("Top parent and parent can not be None if level of Geography is 0!")
+        if self.parent and self.parent.top_parent_id is not None and self.parent.top_parent_id != self.top_parent_id:
             raise ValidationError("Top parent can not be different from parent's top parent!")
 
-        return super().clean()
+        return super(Geography, self).clean()
+
+    def save(self, *args, **kwargs,):
+        self.clean()
+        return super(Geography, self).save(*args, **kwargs)
 
     def get_child_by_post_code(self, postcode: str) -> Optional["Geography"]:
         """
