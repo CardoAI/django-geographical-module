@@ -1,6 +1,5 @@
 from typing import Optional
 
-from django.core.exceptions import ValidationError
 from django.db import models
 
 from geographical_module.utils import STANDARDS, get_or_none

@@ -5,6 +5,7 @@ from model_utils import Choices
 STANDARDS = Choices(
     (0, "unspecified", "Unspecified"),
     (1, "nuts", "NUTS"),
+    (2, "iso_3166", "ISO 3166"),
 )
 
 
