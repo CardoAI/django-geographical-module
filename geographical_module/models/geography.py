@@ -21,6 +21,7 @@ class Geography(models.Model):
     class Meta:
         unique_together = [('standard', 'code')]
 
+    # Todo-still work to be done
     def _verify(self):
         """Make sure that new records that are added respect the hierarchy."""
         if self.level == 0 and (self.parent_id or self.top_parent_id):
