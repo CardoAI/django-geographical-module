@@ -46,4 +46,4 @@ class TestModels:
             _ = lvl_1_p.get_child_by_post_code('empty')
 
         """No geography-postcode was found"""
-        assert top_parent.get_child_by_post_code('empty') == None
+        assert top_parent.get_child_by_post_code('empty') is None
