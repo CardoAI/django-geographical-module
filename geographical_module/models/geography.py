@@ -16,19 +16,19 @@ class Geography(models.Model):
     parent = models.ForeignKey(to='self', related_name='children', null=True, on_delete=models.CASCADE)
     top_parent = models.ForeignKey(to='self', related_name='bottom_children', null=True, on_delete=models.CASCADE)
 
-    def clean(self):
+    def _verify(self):
         """Make sure that new records that are added respect the hierarchy."""
-        if self.level == 0 and self.parent_id and self.top_parent_id:
+        if self.level == 0 and (self.parent_id or self.top_parent_id):
             raise ValidationError("Geography of level 0 can not have parent and top_parent!")
-        if self.parent and self.parent.top_parent_id is not None and self.parent.top_parent_id != self.top_parent_id:
+        if not (self.parent and self.top_parent) or (self.parent and (
+                self.parent.top_parent_id is not None and self.parent.top_parent_id != self.top_parent_id) and (
+                                                             self.parent.top_parent is None and self.parent != self.top_parent)):
             raise ValidationError("Top parent can not be different from parent's top parent!")
-        if 0 < self.level != self.parent.level + 1:
+        if self.parent and self.level != self.parent.level + 1:
             raise ValidationError("The Geography level is not one level below the parent level!")
 
-        return super(Geography, self).clean()
-
-    def save(self, *args, **kwargs,):
-        self.clean()
+    def save(self, *args, **kwargs, ):
+        self._verify()
         return super(Geography, self).save(*args, **kwargs)
 
     def get_child_by_post_code(self, postcode: str) -> Optional["Geography"]:
