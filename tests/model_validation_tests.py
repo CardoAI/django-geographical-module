@@ -8,20 +8,20 @@ from geographical_module.models import Geography, GeographyPostcode
 def test_geography_model_creation_hierarchy(create_data):
     cases_to_test_data = [
         # Top_parent : top_parent has parents
-        {'level': 0, 'code': 'T2', 'original_name': 'Child',
+        {'level': 0, 'code': 'T1', 'original_name': 'Child',
          'parent': create_data['lvl_1_p']},
-        {'level': 0, 'code': 'T2', 'original_name': 'Child',
+        {'level': 0, 'code': 'T1', 'original_name': 'Child',
          'top_parent': create_data['lvl_1_p']},
         # Wrong parents: parent and top_parent are different
-        {'level': 1, 'code': 'T1', 'original_name': 'Child',
+        {'level': 1, 'code': 'T2', 'original_name': 'Child',
          'parent': create_data['top_parent']},
-        {'level': 1, 'code': 'T1', 'original_name': 'Child',
+        {'level': 1, 'code': 'T2', 'original_name': 'Child',
          'top_parent': create_data['top_parent']},
         {'level': 3, 'code': 'T2', 'original_name': 'Child',
          'parent': create_data['lvl_1_p'],
          'top_parent': create_data['dummy_parent']},
         # Wrong level: self.level is not == parent_level + 1
-        {'level': 3, 'code': 'T2', 'original_name': 'Child',
+        {'level': 3, 'code': 'T3', 'original_name': 'Child',
          'parent': create_data['lvl_1_p'],
          'top_parent': create_data['top_parent']}
     ]

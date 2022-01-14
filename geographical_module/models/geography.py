@@ -26,12 +26,16 @@ class Geography(models.Model):
         """Make sure that new records that are added respect the hierarchy."""
         if self.level == 0 and (self.parent_id or self.top_parent_id):
             raise ValidationError("Geography of level 0 can not have parent and top_parent!")
-        if not (self.parent and self.top_parent) or (self.parent and (
-                self.parent.top_parent_id is not None and self.parent.top_parent_id != self.top_parent_id) and (
-                                                             self.parent.top_parent is None and self.parent != self.top_parent)):
-            raise ValidationError("Top parent can not be different from parent's top parent!")
-        if self.parent and self.level != self.parent.level + 1:
-            raise ValidationError("The Geography level is not one level below the parent level!")
+        elif self.level != 0:
+            if self.parent and self.top_parent:
+                if self.parent and self.parent.top_parent_id is None and self.parent != self.top_parent:
+                    raise ValidationError("Top parent can not be different from parent's top parent!")
+                elif self.parent and self.parent.top_parent_id is not None and self.parent.top_parent_id != self.top_parent_id:
+                    raise ValidationError("Top parent can not be different from parent's top parent!")
+            elif not (self.parent and self.top_parent):
+                raise ValidationError("Parent and top_parent must be provided since level is not 0!")
+            if self.parent and self.level != self.parent.level + 1:
+                raise ValidationError("The Geography level is not one level below the parent level!")
 
     def save(self, *args, **kwargs, ):
         self._verify()
