@@ -8,34 +8,40 @@ from geographical_module.utils import STANDARDS, get_or_none
 
 class Geography(models.Model):
     level = models.PositiveSmallIntegerField()
-    original_name = models.CharField(max_length=256, null=True, help_text="Original name in the native language.")
+    original_name = models.CharField(max_length=256, null=True,
+                                     help_text="Original name in the native language.")
     en_name = models.CharField(max_length=256, null=True, help_text="English name.")
     code = models.CharField(max_length=16, help_text="Code as defined by a standard.")
     standard = models.IntegerField(choices=STANDARDS, default=STANDARDS.unspecified,
                                    help_text="The standard this code is defined by.")
-    parent = models.ForeignKey(to='self', related_name='children', null=True, on_delete=models.CASCADE)
-    top_parent = models.ForeignKey(to='self', related_name='bottom_children', null=True, on_delete=models.CASCADE)
+    parent = models.ForeignKey(to='self', related_name='children', null=True,
+                               on_delete=models.CASCADE)
+    top_parent = models.ForeignKey(to='self', related_name='bottom_children', null=True,
+                                   on_delete=models.CASCADE)
     alpha_2 = models.CharField(max_length=16, null=True, unique=True)
     alpha_3 = models.CharField(max_length=16, null=True, unique=True)
 
     class Meta:
         unique_together = [('standard', 'code')]
 
-    # Todo-still work to be done
     def _verify(self):
         """Make sure that new records that are added respect the hierarchy."""
-        if self.level == 0 and (self.parent_id or self.top_parent_id):
-            raise ValidationError("Geography of level 0 can not have parent and top_parent!")
-        elif self.level != 0:
-            if self.parent and self.top_parent:
-                if self.parent and self.parent.top_parent_id is None and self.parent != self.top_parent:
-                    raise ValidationError("Top parent can not be different from parent's top parent!")
-                elif self.parent and self.parent.top_parent_id is not None and self.parent.top_parent_id != self.top_parent_id:
-                    raise ValidationError("Top parent can not be different from parent's top parent!")
-            elif not (self.parent and self.top_parent):
-                raise ValidationError("Parent and top_parent must be provided since level is not 0!")
-            if self.parent and self.level != self.parent.level + 1:
-                raise ValidationError("The Geography level is not one level below the parent level!")
+        if self.level == 0:
+            assert self.parent_id is None, "Level 0 can not have parent!"
+            assert self.top_parent_id is None, "Level 0 can not have top parent!"
+        else:
+            assert self.parent is not None and self.top_parent is not None, \
+                "Level > 0 must have parent and top parent!"
+
+            assert self.level == self.parent.level + 1, \
+                "The level must be one below the parent's!"
+
+            if self.level == 1:
+                assert self.parent == self.top_parent, \
+                    "Level 1 must have the same parent and top parent!"
+            else:
+                assert self.parent.top_parent_id == self.top_parent_id, \
+                    "Top parent can not be different from parent's top parent!"
 
     def save(self, *args, **kwargs, ):
         self._verify()
@@ -64,7 +70,8 @@ class Geography(models.Model):
 class GeographyPostcode(models.Model):
     """Links a postcode to a geography."""
 
-    geography = models.ForeignKey(to='Geography', on_delete=models.CASCADE, related_name="postcodes")
+    geography = models.ForeignKey(to='Geography', on_delete=models.CASCADE,
+                                  related_name="postcodes")
     postcode = models.CharField(max_length=16)
 
     class Meta:
