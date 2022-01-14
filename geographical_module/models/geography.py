@@ -8,13 +8,18 @@ from geographical_module.utils import STANDARDS, get_or_none
 
 class Geography(models.Model):
     level = models.PositiveSmallIntegerField()
-    original_name = models.CharField(max_length=256, help_text="Original name in the native language.")
+    original_name = models.CharField(max_length=256, null=True, help_text="Original name in the native language.")
     en_name = models.CharField(max_length=256, null=True, help_text="English name.")
-    code = models.CharField(max_length=16, unique=True, help_text="Code as defined by a standard.")
+    code = models.CharField(max_length=16, help_text="Code as defined by a standard.")
     standard = models.IntegerField(choices=STANDARDS, default=STANDARDS.unspecified,
                                    help_text="The standard this code is defined by.")
     parent = models.ForeignKey(to='self', related_name='children', null=True, on_delete=models.CASCADE)
     top_parent = models.ForeignKey(to='self', related_name='bottom_children', null=True, on_delete=models.CASCADE)
+    alpha_2 = models.CharField(max_length=16, null=True, unique=True)
+    alpha_3 = models.CharField(max_length=16, null=True, unique=True)
+
+    class Meta:
+        unique_together = [('standard', 'code')]
 
     def clean(self):
         """Make sure that new records that are added respect the hierarchy."""
