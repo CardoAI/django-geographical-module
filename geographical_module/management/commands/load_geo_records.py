@@ -11,5 +11,5 @@ class Command(BaseCommand):
 
     def handle(self, **options):
         for fixture in fixtures:
-            print(f"Loading fixture {fixture}")
+            self.stdout.write(f"Loading fixture {fixture}")
             call_command("loaddata", fixture)
