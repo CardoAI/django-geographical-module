@@ -14,6 +14,6 @@ Quick start
 
 2. Run ``python manage.py migrate`` to create the models.
 
-3. Run ``python manage.py load_initial_data`` to populate the database with the initial records.
+3. Run ``python manage.py load_geo_records`` to populate the database with the initial records.
 
 4. Run ``python manage.py load_nuts_postcode_records`` to populate the database with the NUTS-postcode relationship.
