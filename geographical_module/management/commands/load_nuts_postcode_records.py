@@ -1,10 +1,9 @@
 import time
 
-import pandas as pd
 from django.core.management.base import BaseCommand
 
-from geographical_module.models.geography import GeographyPostcode, Geography
-from geographical_module.utils import STANDARDS
+from geographical_module.models import GeographyPostcode, Geography
+from geographical_module.utils import get_csv_reader_from_remote
 
 REMOTE_FILE_PATH = "https://package-files.s3.eu-central-1.amazonaws.com/+django-geographical-module/nuts_postcodes.csv"
 
@@ -14,21 +13,21 @@ class Command(BaseCommand):
 
     def handle(self, **options):
         print("Loading NUTS-Postcode data from remote CSV file...")
-        nuts_postcodes_df = pd.read_csv(REMOTE_FILE_PATH, delimiter=";")
+        nuts_postcodes_reader = get_csv_reader_from_remote(REMOTE_FILE_PATH, delimiter=';')
 
         print("Loading existing NUTS-Postcode into memory...")
-        existing_nuts_postcodes_records = GeographyPostcode.objects.filter(
-            geography__standard=STANDARDS.nuts
+        existing_nuts_postcodes_records = GeographyPostcode.objects.exclude(
+            geography__nuts_code=None
         )
         existing_combinations = set(existing_nuts_postcodes_records.values_list(
-            "geography__code",
+            "geography__nuts_code",
             "postcode"
         ))
 
         print("Loading NUTS records ids into memory...")
         nuts_ids = {
-            record.code: record.id
-            for record in Geography.objects.filter(standard=STANDARDS.nuts)
+            record.nuts_code: record.id
+            for record in Geography.objects.exclude(nuts_code=None)
         }
 
         print("Processing NUTS-Postcode data...")
@@ -36,7 +35,8 @@ class Command(BaseCommand):
         time0 = time.time()
 
         records_to_create = []
-        for index, row in nuts_postcodes_df.iterrows():
+        index = 0
+        for row in nuts_postcodes_reader:
 
             if (row["nuts"], row["postcode"]) not in existing_combinations:
                 try:
@@ -52,6 +52,7 @@ class Command(BaseCommand):
 
             if index % 100000 == 0:
                 print(f"{index} records processed...")
+            index += 1
 
         time1 = time.time()
         print("Finished processing rows in ", time1 - time0, "seconds.")

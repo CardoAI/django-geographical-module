@@ -1,15 +1,19 @@
 from django.core.management.base import BaseCommand
-from django.core.management import call_command
 
-fixtures = [
-    "geography.yaml",
-]
+from geographical_module.models import Geography
+from geographical_module.utils import get_csv_reader_from_remote, bulk_create_update_from_csv
+
+REMOTE_FILE_PATH = 'https://package-files.s3.eu-central-1.amazonaws.com/+django-geographical-module/geographies.csv'
 
 
 class Command(BaseCommand):
-    help = 'Load geographical data (e.g. NUTS) from fixture into the database'
+    help = 'Load geographical data (e.g. NUTS) into the database'
 
     def handle(self, **options):
-        for fixture in fixtures:
-            self.stdout.write(f"Loading fixture {fixture}")
-            call_command("loaddata", fixture)
+        print("Started...")
+        print("Loading csv from remote...")
+        reader = get_csv_reader_from_remote(REMOTE_FILE_PATH)
+        print("Preparing data to be created or updated...")
+        bulk_create_update_from_csv(model=Geography, csv_reader=reader)
+
+        print("Finished.")
