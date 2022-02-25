@@ -33,7 +33,7 @@ def test_create_geography_raises_error(record_data, initial_geographies):
             **record_data,
             parent=parent,
             top_parent=top_parent,
-            code="T1",
+            nuts_code="T1",
         )
 
 

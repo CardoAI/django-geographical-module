@@ -2,26 +2,35 @@ from typing import Optional
 
 from django.db import models
 
-from geographical_module.utils import STANDARDS, get_or_none
+from geographical_module.utils import get_or_none
+
+
+class ContinentChoices(models.TextChoices):
+    ASIA = 'asia', 'Asia'
+    AFRICA = 'africa', 'Africa'
+    EUROPE = 'europe', 'Europe'
+    NORTH_AMERICA = 'north_america', 'North America'
+    SOUTH_AMERICA = 'south_america', 'South America'
+    AUSTRALIA = 'australia', 'Australia'
+    ANTARCTICA = 'antarctica', 'Antarctica'
 
 
 class Geography(models.Model):
+    continent = models.CharField(max_length=16, choices=ContinentChoices.choices)
     level = models.PositiveSmallIntegerField()
     original_name = models.CharField(max_length=256, null=True,
                                      help_text="Original name in the native language.")
     en_name = models.CharField(max_length=256, null=True, help_text="English name.")
-    code = models.CharField(max_length=16, help_text="Code as defined by a standard.")
-    standard = models.IntegerField(choices=STANDARDS, default=STANDARDS.unspecified,
-                                   help_text="The standard this code is defined by.")
+
+    nuts_code = models.CharField(max_length=16, unique=True, null=True, help_text="Code as defined by NUTS standard.")
+    iso_3166_code = models.CharField(max_length=16, unique=True, null=True, help_text="Code as defined by ISO 3166 standard.")
+
     parent = models.ForeignKey(to='self', related_name='children', null=True,
                                on_delete=models.CASCADE)
     top_parent = models.ForeignKey(to='self', related_name='bottom_children', null=True,
                                    on_delete=models.CASCADE)
     alpha_2 = models.CharField(max_length=16, null=True, unique=True)
     alpha_3 = models.CharField(max_length=16, null=True, unique=True)
-
-    class Meta:
-        unique_together = [('standard', 'code')]
 
     def _verify(self):
         """Make sure that new records that are added respect the hierarchy."""
@@ -63,7 +72,7 @@ class Geography(models.Model):
         )
 
     def __str__(self):
-        return f'{self.en_name or self.original_name}-{self.code}'
+        return f'{self.en_name or self.original_name}'
 
 
 class GeographyPostcode(models.Model):
@@ -77,4 +86,4 @@ class GeographyPostcode(models.Model):
         unique_together = ('geography', 'postcode')
 
     def __str__(self):
-        return f'{self.geography.code}-{self.postcode}'
+        return f'{self.geography.nuts_code}-{self.postcode}'
