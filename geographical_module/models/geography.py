@@ -31,6 +31,7 @@ class Geography(models.Model):
                                    on_delete=models.CASCADE)
     alpha_2 = models.CharField(max_length=16, null=True, unique=True)
     alpha_3 = models.CharField(max_length=16, null=True, unique=True)
+    italian_province_code = models.CharField(max_length=2, null=True, unique=True)
 
     def _verify(self):
         """Make sure that new records that are added respect the hierarchy."""
